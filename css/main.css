@@ -8,7 +8,7 @@ body {
 img  {
     float: right;
   }
-  .barra {
+  h1 footer {
     width: 300px;
     content: 15px solid palevioletred;
     padding: 50px;
