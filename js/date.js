@@ -1,4 +1,4 @@
-let date = document.lastModified;
+var string = document.lastModified;
 document.getElementById("date").textContent = date;
 
 // Derived ****************************
