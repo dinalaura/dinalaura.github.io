@@ -3,6 +3,7 @@
     max-width: 800px;
     margin: 0 auto;
     font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
     }
 
     .color {
@@ -22,14 +23,16 @@
     h1{
       font-size:3rem;
       color:white;
-      font-family: 'Open Sans', sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: normal;
     }
     
     h2{
       font-size: 2rem;
       text-align: center;
       border-bottom: 1px solid #000000;
-      font-family: 'Open Sans', sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: normal;
     }
     
     header, main, footer {
