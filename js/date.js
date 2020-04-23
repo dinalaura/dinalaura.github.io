@@ -1,4 +1,4 @@
-// current date 1
+// Derived ****************************
 let daynames = [
     "Sunday",
     "Monday",
@@ -31,7 +31,8 @@ let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFull
 document.getElementById("currentdate").textContent = fulldate;
 
 
-// current date 2
+// Using toLocaleDateString *******************
+
 try {
 let options = {
     weekday: "long",
