@@ -7,3 +7,9 @@ body {
 img  {
     float: right;
   }
+  .barra {
+    width: 300px;
+    content: 15px solid palevioletred;
+    padding: 50px;
+    margin: 20px;
+  }
