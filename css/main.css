@@ -5,38 +5,36 @@
   font-family: Helvetica, Arial, sans-serif;
   
   }
-  .color {
-  background-color:#1d6f99;
-  text-align: center;
-  padding: 30px 0px;
-  border-radius: 10px;
-  }
-  
-  body{
-    font-size: 16px;
-    line-height: 32px;
-    color: #000000;
-  }
-  
-  h1{
-    font-size:3rem;
+  h1, footer {
     color:white;
-    font-family: 'Open Sans', sans-serif;
   }
-  
-  h2{
-    font-size: 2rem;
-    text-align: center;
-    border-bottom: 1px solid #000000;
-    font-family: 'Open Sans', sans-serif;
+  h1, footer {
+    background-color: #371042;
+    padding:10px;
+    max-width: 700px;
+      margin: auto;
+  text-align:center;
+    border:auto;
+    border-radius:15px;
   }
-  
-  header, main, footer {
-    margin: 1.25rem auto;
-    padding: .5rem;
-  color: white;
+  h1{
+    margin-bottom:50px;
   }
+  ul {
+    margin-bottom:50px;
+  }
+  h2, nav{
+    max-width: 700px;
+    margin: auto;
+  }
+  footer a {
+    color: white;
+  }
+  footer{
+  line-height: 5px;
   
+  }
+     
   
   img {
     border-radius: 15px;
