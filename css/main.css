@@ -1,6 +1,6 @@
 
   #content{
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   font-family: Helvetica, Arial, sans-serif;
   
@@ -23,8 +23,6 @@
     font-size:3rem;
     color:white;
     font-family: 'Open Sans', sans-serif;
-  
-  
   }
   
   h2{
@@ -32,8 +30,6 @@
     text-align: center;
     border-bottom: 1px solid #000000;
     font-family: 'Open Sans', sans-serif;
-  
-  
   }
   
   header, main, footer {
@@ -50,9 +46,11 @@
     height: 250px;
     box-shadow: 0 0 30px #444;
   }
+
   footer {
 line-height: 5px;
   }
+  
   footer a{
   color:white;
   }
