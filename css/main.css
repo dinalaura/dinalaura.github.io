@@ -6,7 +6,7 @@
     background-color: #371042;
     padding:10px;
     max-width: 700px;
-      margin: auto;
+    margin: auto;
   text-align:center;
     border:auto;
     border-radius:15px;
@@ -24,18 +24,50 @@
   footer a {
     color: white;
   }
-  footer{
-  line-height: 5px;
-  }
-     
   img {
-    border-radius: 15px;
-    float: right;
-    z-index: 1;
-    height: 250px;
-    box-shadow: 0 0 30px #444;
+      float:right;
+      margin: right;
+      border-radius: 15px;
+      z-index: 1;
+      height: 250px;
+      box-shadow: 0 0 30px #444;
+    }
+  
+  h1, footer {
+      color:white;
+    }
+  
+    h1, footer {
+      background-color: #371042;
+      padding:10px;
+      max-width: 700px;
+        margin: auto;
+    text-align:center;
+      border:auto;
+      border-radius:15px;
+    }
+    h1{
+      margin-bottom:50px;
+    }
+    ul {
+      margin-bottom:50px;
+    }
+    h2, nav{
+      max-width: 700px;
+      margin: auto;
+    }
+    footer a {
+      color: white;
+    }
+    footer{
+    line-height: 5px;
+    
+    }
+       
+  h2{
+      border-bottom: 1px solid #000000;
   }
-
-  #currentdate {
-  color: rgb(255, 255, 255);
-  }
+  
+    #currentdate {
+    color: rgb(255, 255, 255);
+    }
