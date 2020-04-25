@@ -6,7 +6,7 @@
     font-weight: normal;
     }
 
-    h1 footer {
+    h1, footer {
     background-color:#8C4966;
     text-align: center;
     width:100%;
