@@ -23,6 +23,9 @@
     margin-bottom:10px;
     max-width:500px;
   }
+  h1, h2{
+    font-family: 'Nanum Gothic', sans-serif;
+  }
 
 ul{
       margin-bottom:50px;
