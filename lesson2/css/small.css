@@ -1,61 +1,52 @@
 
-    header {
-        background-color:#371042;
-        text-align: center;
-        width:100%;
-        padding:1rem;
-        color: white;
-    
-        }
-       
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-        font-size: .8rem;
-    }
-
-    footer {
-        background-color:#371042;
-        text-align: center;
-        width:100%;
-        padding: .5rem;
-        color: white;
-     
-    }
-
-
-    .col {
-        background-color: #f2eac3;
-        border: .2rem solid #371042;
-        padding: .5rem;
-        margin: .5rem;
-        border-radius: 20px;
-        text-align: center;
-
-    }
-  
-   img{
-  
-        width: 100%;
-      height: auto;
-  
-    }
-
-  h3 {
-    background-color: #371042;
-    color: #fff;
-    padding: 1rem;
+  #content{
+    max-width: 700px;
+  margin: 0 auto;  
   }
 
-h4{
-  margin:.5rem;
-}
-p{
-    font-size: medium;
-    text-align: left;
+  .color {
+    background-color: #371042;
+    padding: 20px;
+    margin: auto;
+    text-align:center;
+  }
+  
+  
+  h1{
+    margin-top:0px;
+  }
+  
+  h2{
+    border-bottom: 1px solid #000000;
+        margin-top:40px;
+    margin-bottom:10px;
+    max-width:500px;
+  }
+  h1, h2{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: normal;
+  }
+
+ul{
+      margin-bottom:50px;
 }
 
+  header, main, footer {
+  color: white;
+  }
 
- footer a{
+    img {
+    height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+  footer a{
   color:white;
+  }
+
+  #currentdate {
+  color: rgb(255, 255, 255);
   }
