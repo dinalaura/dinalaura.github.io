@@ -1,0 +1,23 @@
+@media only screen and (min-width: 32.5em){
+  
+    .color {
+
+    border-radius:15px;
+  }
+
+  footer{
+  margin-top:0px;
+  line-height:5px;
+}
+  
+    img {
+          z-index: 1;
+    border-radius: 15px;
+    float: right;
+    box-shadow: 0 0 30px #444;
+      width:auto;
+  }
+  
+  
+
+}
