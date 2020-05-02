@@ -1,6 +1,6 @@
 
     header {
-        background-color:#964b00;
+        background-color:#371042;
         text-align: center;
         width:100%;
         padding:1rem;
@@ -15,7 +15,7 @@
     }
 
     footer {
-        background-color:#964b00;
+        background-color:#371042;
         text-align: center;
         width:100%;
         padding: .5rem;
@@ -26,8 +26,7 @@
 
     .col {
         background-color: #f2eac3;
-        border: .2rem solid #964b00;
-        background-color: #f2eac3;
+        border: .2rem solid #371042;
         padding: .5rem;
         margin: .5rem;
         border-radius: 20px;
@@ -43,7 +42,7 @@
     }
 
   h3 {
-    background-color: #964b00;
+    background-color: #371042;
     color: #fff;
     padding: 1rem;
   }
@@ -55,3 +54,8 @@ p{
     font-size: medium;
     text-align: left;
 }
+
+
+ footer a{
+  color:white;
+  }
