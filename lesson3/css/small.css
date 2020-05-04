@@ -15,8 +15,6 @@
           }
          
       main {
-          display: grid;
-          grid-template-columns: 1fr;
           font-size: .8rem;
       }
   
@@ -26,16 +24,6 @@
           padding: .5rem;
           color: white;
        
-      }
-  
-  
-      .col {
-          background-color: #f2eac3;
-          border: .2rem solid #371042;
-          padding: .5rem;
-          margin: .5rem;
-          border-radius: 20px;
-          text-align: center;
       }
     
      img{
