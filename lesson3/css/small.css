@@ -59,7 +59,8 @@
 nav {
 	background-color: #FDA172;
 	text-align: center;
-	box-shadow: 0 2px 15px white;
+  box-shadow: 0 2px 15px white;
+  margin-bottom: 1em;
 }
 nav ul {
 	list-style-type: none;
