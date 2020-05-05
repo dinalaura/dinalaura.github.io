@@ -55,13 +55,11 @@
   footer a{
     color:white;
     } 
-    
-
 
 nav {
-	background-color: #371042;
+	background-color: #FDA172;
 	text-align: center;
-	box-shadow: 0 2px 15px gray;
+	box-shadow: 0 2px 15px white;
 }
 nav ul {
 	list-style-type: none;
