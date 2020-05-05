@@ -3,9 +3,11 @@
       margin-left: auto;
     margin-right: auto;
   }
+  
     body{
       font-family: 'Nanum Gothic', sans-serif;
     }
+
   header {
           background-color:#371042;
           text-align: center;
@@ -24,10 +26,8 @@
           background-color:#371042;
           text-align: center;
           padding: .5rem;
-          color: white;
-       
+          color: white;     
       }
-  
   
       .col {
           background-color: #f2eac3;
@@ -35,7 +35,7 @@
           padding: .5rem;
           margin: .5rem;
           border-radius: 20px;
-          text-align: center;
+          
       }
     
      img{
@@ -48,21 +48,18 @@
       color: #fff;
       padding: 1rem;
       margin: 0px;
-  
+      text-align: center;
   }
   
   h4{
     margin:.5rem;
     }
   
-  
-  
   p{
       font-size: medium;
       text-align: left;
       font-weight: normal;
   }
-  
   
   footer a{
     color:white;
