@@ -80,7 +80,31 @@ nav a:hover {
 	color: blue;
 }
 
-#imagen {
-  width: 70%;
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+        
+
+#uno {
+  background-color: #41D3BD;
+}
+#dos{
+  background-color: #FFFFF2;
+}
+#tres {
+  background-color: #791E94;
+}
+#cuatro{
+  background-color: #DE6449;
+}
+#cinco{
+  background-color: #407899
+;
+}
+
+.white{
+    color:white;
 
 }
