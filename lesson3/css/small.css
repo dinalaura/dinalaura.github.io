@@ -79,3 +79,8 @@ nav a:hover {
 .active {
 	color: blue;
 }
+
+#imagen {
+  width: 70%;
+
+}
