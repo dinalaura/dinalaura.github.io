@@ -79,3 +79,7 @@ nav a:hover {
 .active {
 	color: blue;
 }
+
+.palette {
+  display: flex;
+}
