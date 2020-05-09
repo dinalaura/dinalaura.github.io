@@ -79,13 +79,3 @@ nav a:hover {
 .active {
 	color: blue;
 }
-
-.palette {
-  display: flex;
-  flex-direction: row;
-}
-
-#uno {
-  background-color: burlywood;
-  height: 20px;
-}
