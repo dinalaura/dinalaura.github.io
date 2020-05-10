@@ -28,7 +28,7 @@
       }
     
      img{
-          width: 20%;
+          width: 30%;
       }
   
     h3 {
@@ -105,8 +105,9 @@ th, td {
 h3 {
   text-align: center;
 }
-img, p {
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
