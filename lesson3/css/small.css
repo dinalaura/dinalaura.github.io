@@ -79,7 +79,9 @@ nav a:hover {
 .active {
 	color: blue;
 }
-
+main {
+align-content: center;
+}
 
 th, td {
   padding: 15px;
