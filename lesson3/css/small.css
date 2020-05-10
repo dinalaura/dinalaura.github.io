@@ -105,6 +105,6 @@ th, td {
 h3 {
   text-align: center;
 }
-p, img {
-align-content: center;
+img, p {
+align-items: center;
 }
