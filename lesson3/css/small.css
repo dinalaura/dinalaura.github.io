@@ -35,15 +35,7 @@
       color: black;
       padding: 1rem;
       margin: 0px;
-      text-align: center;
-  }
-  
-  h4{
-    margin:.5rem;
-    }
-  
-  
-  
+  }  
   p{
       font-size: medium;
       text-align: left;
@@ -108,4 +100,8 @@ th, td {
 .white{
     color:white;
 
+}
+
+img, h3, p {
+  text-align: center;
 }
