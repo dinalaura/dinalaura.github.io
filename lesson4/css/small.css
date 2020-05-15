@@ -38,7 +38,7 @@ nav{
   background-color: burlywood;
 }
 
-  box {
+  .box {
     display:block;
     margin:10px auto;
     border:1px purple;
