@@ -13,14 +13,7 @@
           text-align: center;
           padding:1rem;
           color: white;
-      
           }
-         
-      main {
-          display: grid;
-          grid-template-columns: 1fr;
-          font-size: .8rem;
-      }
   
       footer {
           background-color:#407899;
@@ -29,7 +22,6 @@
           color: white;     
       }
 
-    
      img{
           width: 15%;
         height: auto;
