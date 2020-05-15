@@ -34,9 +34,16 @@
           width: 15%;
         height: auto;
       }
+nav{
+  background-color: burlywood;
+}
 
-
-  
+  article{
+    background-color: chocolate;
+  }
+  div{
+    background-color: coral;
+  }
   footer a{
     color:white;
     } 
