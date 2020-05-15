@@ -4,12 +4,12 @@
     }
 
   header {
-          background-color:#41D3BD;
+          background-color:#407899;
           text-align: center;
           padding:1rem;
           color: white;
           }
-  h1, h2, header p {
+  h2 {
     text-align: center; 
         }
       footer {
