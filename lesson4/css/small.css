@@ -20,11 +20,20 @@
       }
 
      img{
-      display:flex;
-      justify-content: right;
           width: 15%;
         height: auto;
       }
+      #flexcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .textbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
   .box {
     display:block;
     margin:10px auto;
