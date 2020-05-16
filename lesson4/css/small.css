@@ -90,6 +90,9 @@ h2 {
     padding:15px;
     background-color: coral; 
   }
+  #bottombox {
+    margin-bottom: 0px;
+  } 
 
   footer {
     background-color:#407899;
