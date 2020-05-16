@@ -51,7 +51,8 @@ header img {
   }
   .navigation li:first-child {
     display: block;
-  }
+    }
+
   .navigation li {
     display: none;
   }
@@ -63,10 +64,13 @@ header img {
     color: black;
     font-weight: 700;
   }
+
+
   .navigation a:hover {
     color: white;
     background-color: black;
   }
+  
   
   .responsive li {
     display: block;
