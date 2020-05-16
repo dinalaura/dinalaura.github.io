@@ -45,6 +45,12 @@ header img {
     margin: 0 auto;
     background-color: burlywood;
   }
+
+  nav ul{ 
+  margin: 0;
+  padding: 0;
+}
+  
   .navigation {
     list-style: none;
     padding: 0;
