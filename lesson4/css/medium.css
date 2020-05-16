@@ -5,7 +5,9 @@
 	   }
 	 
 /*Header */
-
+header img {
+	width: 80%;
+}
 .headings h1 {
 	font-size: 2rem;
 }
