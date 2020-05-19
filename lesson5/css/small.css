@@ -89,22 +89,18 @@ h2 {
       }
 
 
-
   .box {
     display:block;
     margin:10px auto;
     border:2px dashed purple;
     padding:15px;
-    background-color: rgba(255,127,80,.8); 
+    background-color: coral; 
   }
-
-
   .newbox{
     display:block;
     margin:10px auto;
 
   }
-
   #summaryw {
     display:block;
     margin:10px auto;
@@ -113,13 +109,12 @@ h2 {
     background-color: rgb(64,120, 153, .60);
     padding:10px;
   }
-   main ul {
-    list-style: none;
-   }
-
   #bottombox {
-    display:block;
     margin-bottom: 0px;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+
   } 
 
   footer {
