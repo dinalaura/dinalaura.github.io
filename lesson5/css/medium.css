@@ -19,7 +19,10 @@ header img {
 }
 /*End of header*/
 
-
+#bottombox {
+	display: flex;
+	flex-direction: row-reverse;
+  }	 
     /* Navigation */
 	.navigation {
 		display: flex;
