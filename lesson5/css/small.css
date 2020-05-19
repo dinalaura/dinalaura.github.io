@@ -96,6 +96,25 @@ h2 {
     padding:15px;
     background-color: coral; 
   }
+
+  .newbox{
+    display:block;
+    margin:10px auto;
+
+  }
+
+  #summaryw {
+    display:block;
+    margin:10px auto;
+    z-index: 1;
+    max-width: 300px;
+    background-color: rgb(64,120, 153, .60);
+    padding:10px;
+  }
+   main ul {
+    list-style: none;
+   }
+
   #bottombox {
     margin-bottom: 0px;
   } 
