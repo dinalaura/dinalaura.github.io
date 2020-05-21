@@ -3,7 +3,12 @@
     .box {
         max-width: 500px;
 	   }
-	 
+
+	   #firstsection {
+        max-width: 520px;
+	   }
+
+
 /*Header */
 header img {
 	width: 80%;

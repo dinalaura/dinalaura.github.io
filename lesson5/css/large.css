@@ -3,6 +3,10 @@
     .box {
         max-width: 700px;
        }
+       #firstsection{
+        max-width: 720px;
+
+       }
           footer {
             max-width: 720px;
             margin-left: auto;
