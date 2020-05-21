@@ -8,13 +8,19 @@
         max-width: 520px;
 	   }
 
+	   #summaryw {
+		position: absolute;
+		  top: 25px;
+		  left: 50px;
+	  }
+
 	   #bottombox {
 		margin-bottom: 0px;
 		display:flex;
 		flex-direction: row-reverse;
 		justify-content: left;
 	  } 
-	  
+
 /*Header */
 header img {
 	width: 80%;
