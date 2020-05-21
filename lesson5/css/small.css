@@ -122,14 +122,11 @@ h2 {
 }
 
 
-  }
-
   #bottombox {
     margin-bottom: 0px;
     display:flex;
     flex-direction: row-reverse;
     justify-content: left;
-
   } 
 
   footer {
