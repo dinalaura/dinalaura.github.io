@@ -115,9 +115,16 @@ h2 {
 		  border: 1px solid #000;
 		  padding: 1.5rem;
 		  box-shadow: 0 0 30px #111;
-		opacity: .8;
+		  opacity: .8;
     }
-    
+
+    #article img{
+    max-width: 100%;
+      }
+  
+    #article a{
+      font-size: small;
+    }
     #address{
   padding:1em;
   margin: 1em;
@@ -125,8 +132,8 @@ h2 {
 }
 
 #map{
-  max-width: 100% !important;
-  }
+  max-width: 100%;
+}
   footer {
     background-color:#407899;
     text-align: center;
