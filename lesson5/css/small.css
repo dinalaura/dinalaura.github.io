@@ -116,8 +116,17 @@ h2 {
 		  padding: 1.5rem;
 		  box-shadow: 0 0 30px #111;
 		opacity: .8;
-	  }
+    }
+    
+    #address{
+  padding:1em;
+  margin: 1em;
+  text-align: center;
+}
 
+#map{
+  max-width: 100% !important;
+  }
   footer {
     background-color:#407899;
     text-align: center;

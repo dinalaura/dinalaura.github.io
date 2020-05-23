@@ -21,6 +21,11 @@
 		justify-content: left;
 	  } 
 
+	  #address {
+		text-align: left;
+	  }
+
+	
 /*Header */
 header img {
 	width: 80%;
