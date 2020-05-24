@@ -165,16 +165,17 @@ body { max-width: 60em;
     #article a{
       font-size: small;
     }
+
+    
+    #map img{
+      width: 80%;
+    }
+
     #address{
   padding:1em;
   margin: 1em;
   text-align: center;
 }
-
-#map iframe{
-  border: 0px;
-}
-
 
   footer {
     background-color:rgb(64, 120, 153);
