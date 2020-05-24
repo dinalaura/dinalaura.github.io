@@ -77,10 +77,10 @@ header img {
     color: white;
     background-color: black;
   }
-  
   .navigation a:active, .selected {
-    background-color: rgb(190, 166, 134) !important;
+    background-color: rgba(236, 216, 216, 0.849) !important;
 }
+
 
   
   .responsive li {
