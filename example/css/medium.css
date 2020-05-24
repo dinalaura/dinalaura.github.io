@@ -99,18 +99,18 @@ header img {
 
 
     /* Navigation */
-	.navigation {
+	nav {
 		display: flex;
 	}
-	.navigation li {
+	nav li {
 		display: block;
 		flex: 1 1 auto;
 	}
-	.navigation a {
+	nav a {
 		text-align: center;
 	}
 
-    .navigation li:first-child {
+    nav li:first-child {
 		display: none;
 	}
 /*End of navigation***************/

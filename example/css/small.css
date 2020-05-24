@@ -45,6 +45,8 @@ header img {
   nav {
     margin: 0 auto;
     background-color: burlywood;
+    list-style: none;
+    padding: 0;
   }
 
   nav ul{ 
@@ -52,18 +54,14 @@ header img {
   padding: 0;
 }
   
-  .navigation {
-    list-style: none;
-    padding: 0;
-  }
-  .navigation li:first-child {
+  nav li:first-child {
     display: block;
     }
 
-  .navigation li {
+  nav li {
     display: none;
   }
-  .navigation a {
+  nav a {
     display: block;
     padding: 0.75rem;
     text-align: center;
@@ -73,12 +71,12 @@ header img {
   }
 
 
-  .navigation a:hover {
+  nav a:hover {
     color: white;
     background-color: black;
   }
   
-  .navigation a.active {
+  nav a:active {
     color: white;
     font-weight: bold;
 }

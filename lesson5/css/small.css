@@ -78,7 +78,7 @@ header img {
     background-color: black;
   }
   
-  .navigation a.active {
+  .navigation a:active {
     color: white;
     font-weight: bold;
 }
