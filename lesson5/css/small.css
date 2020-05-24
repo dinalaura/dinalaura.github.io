@@ -78,7 +78,7 @@ header img {
     background-color: black;
   }
   .navigation a:active, .selected {
-    background-color: rgba(236, 216, 216, 0.849) !important;
+    text-decoration: underline !important;
 }
 
 
