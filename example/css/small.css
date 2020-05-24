@@ -70,16 +70,15 @@ header img {
     font-weight: 700;
   }
 
-
+  
   nav a:hover {
     color: white;
     background-color: black;
   }
-  
-  nav a:active {
-    color: white;
-    font-weight: bold;
-}
+  nav ul li a:active {
+    background-color: yellow !important;
+  }
+
   
   .responsive li {
     display: block;
