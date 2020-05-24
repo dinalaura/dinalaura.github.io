@@ -120,10 +120,12 @@ h2 {
 .details .value { color: yellow; }
 
 * {	box-sizing: border-box;}
-body { max-width: 60em;	margin: 0 auto; font-family: ubuntu, sans-serif; }
+body { max-width: 60em;	
+  margin: 0 auto; 
+  font-family: ubuntu, sans-serif; }
 
 .summary { 
-  background: radial-gradient(rgba(64, 120, 153, 0.65), rgba(64, 120, 153, 0.95)); 
+  background: radial-gradient(rgb(64, 120, 153), rgba(64, 120, 153, 0.568)); 
   border: 1px solid #777; 
   padding: 0 .75rem 1rem; 
   color: #fff; 
@@ -131,8 +133,13 @@ body { max-width: 60em;	margin: 0 auto; font-family: ubuntu, sans-serif; }
   width: 300px; 
   margin: 50px auto; 
 }
-.summary h3 { border-bottom: .5px solid #fff; padding-bottom: 2px; margin: 5px 5px 10px 5px;}
-.summary div { line-height: 1.2; padding: .1rem; margin: 0;}
+.summary h3 { 
+  border-bottom: .5px solid #fff; 
+  padding-bottom: 2px; margin: 5px 5px 10px 5px;}
+.summary div { 
+  line-height: 1.2; 
+  padding: .1rem; 
+  margin: 0;}
 
 /***End of summary********************************/
 
