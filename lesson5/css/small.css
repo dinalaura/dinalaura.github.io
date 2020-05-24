@@ -117,7 +117,7 @@ h2 {
 }
 
 .details .label { text-align: right; }
-.details .value { color: yellow; }
+.details .value { color: #FFFF6B; }
 
 * {	box-sizing: border-box;}
 body { max-width: 60em;	
