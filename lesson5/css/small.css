@@ -40,7 +40,8 @@ header img {
 
 /*End of headings*************/
 
-  /* Navigation ***************/
+
+/* Navigation ******************************************/
   nav {
     margin: 0 auto;
     background-color: burlywood;
@@ -77,11 +78,15 @@ header img {
     background-color: black;
   }
   
+
   
   .responsive li {
     display: block;
   }
-      /* End of Navigation ***************/
+
+
+  
+  /************* End of Navigation *********************************/
   
 
 h2 {
