@@ -125,7 +125,7 @@ body { max-width: 60em;
   font-family: ubuntu, sans-serif; }
 
 .summary { 
-  background: radial-gradient(rgb(64, 120, 153), rgba(64, 120, 153, 0.568)); 
+  background:#407899; 
   border: 1px solid #777; 
   padding: 0 .75rem 1rem; 
   color: #ffffff; 
