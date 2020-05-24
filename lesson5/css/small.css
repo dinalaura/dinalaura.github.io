@@ -167,6 +167,8 @@ body { max-width: 60em;
 #article{
   display: flex;
   flex-direction: column-reverse;
+  margin: 70px auto 10px auto;
+
 }
     #article img{
     max-width: 100%;
