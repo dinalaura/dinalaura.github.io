@@ -117,7 +117,7 @@ h2 {
 }
 
 .details .label { text-align: right; }
-.details .value { color: rgba(255, 255, 0, 0.473); }
+.details .value { color: rgba(255, 255, 0, 0.733); }
 
 * {	box-sizing: border-box;}
 body { max-width: 60em;	
@@ -125,16 +125,16 @@ body { max-width: 60em;
   font-family: ubuntu, sans-serif; }
 
 .summary { 
-  background: radial-gradient(rgb(64, 120, 153), rgba(64, 120, 153, 0.568)); 
+  background: radial-gradient(rgba(64, 120, 153, 0.753), rgba(64, 120, 153, 0.568)); 
   border: 1px solid #777; 
   padding: 0 .75rem 1rem; 
-  color: #fff; 
+  color: rgba(255, 255, 255, 0); 
   box-shadow: 0 0 40px #444; 
   width: 300px; 
   margin: 50px auto; 
 }
 .summary h3 { 
-  border-bottom: .5px solid #fff; 
+  border-bottom: .5px solid rgba(255, 255, 255, 0); 
   padding-bottom: 2px; margin: 5px 5px 10px 5px;}
 .summary div { 
   line-height: 1.2; 
