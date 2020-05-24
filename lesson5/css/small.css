@@ -44,7 +44,7 @@ header img {
 /* Navigation ******************************************/
   nav {
     margin: 0 auto;
-    background-color: burlywood;
+    background-color: #deb887;
   }
 
   nav ul{ 
@@ -68,7 +68,7 @@ header img {
     padding: 0.75rem;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-weight: 700;
   }
 
@@ -79,8 +79,7 @@ header img {
   }
   
   .navigation a:active, .selected {
-    color: white !important;
-    font-weight: bold !important;
+    background-color: rgb(190, 166, 134) !important;
 }
 
   
