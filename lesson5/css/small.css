@@ -101,6 +101,7 @@ h2 {
     display:block;
     margin:10px auto;
     position: relative;
+    margin-bottom: 3.5em;
   }
 
   #heroimage{
@@ -131,7 +132,7 @@ body { max-width: 60em;
   color: #ffffff; 
   box-shadow: 0 0 40px #444; 
   width: 300px; 
-  margin: 50px auto; 
+  margin: 20px auto; 
 }
 .summary h3 { 
   border-bottom: .5px solid #ffffff; 
