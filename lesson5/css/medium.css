@@ -8,12 +8,7 @@
         max-width: 520px;
 	   }
 
-	   #summary {
-		position: absolute;
-		  top: 25px;
-		  left: 50px;
-	  }
-
+	
 	  #article{
 		display: block;
 	  }
