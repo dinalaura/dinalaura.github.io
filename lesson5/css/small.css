@@ -150,7 +150,8 @@ body { max-width: 60em;
 	border: 1px solid #000;
 	padding: .5rem;
 	box-shadow: 0 0 30px #111;
-	opacity: .85;
+  opacity: .85;
+
 }
 
 #article{
@@ -165,8 +166,10 @@ body { max-width: 60em;
     #article a{
       font-size: small;
     }
+ #forecast{
+  display: none;
+}
 
-  
     #map img{
       width: 100%;
     }
