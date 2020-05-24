@@ -42,50 +42,42 @@ header img {
 
 
 /* Navigation ******************************************/
-  nav {
+
+
+
+nav,
+{
+    max-width: 767px;
     margin: 0 auto;
-    background-color: burlywood;
-  }
-
-  nav ul{ 
-  margin: 0;
-  padding: 0;
 }
-  
-  .navigation {
-    list-style: none;
-    padding: 0;
-  }
-  .navigation li:first-child {
-    display: block;
-    }
 
-  .navigation li {
-    display: none;
-  }
-  .navigation a {
-    display: block;
-    padding: 0.75rem;
+
+nav {
+    background-color: #36454f;
     text-align: center;
+    box-shadow: 0 2px 15px gray;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
     text-decoration: none;
-    color: black;
-    font-weight: 700;
-  }
-
-
-  .navigation a:hover {
-    color: white;
-    background-color: black;
-  }
-  
-  .active {
+    font-size: 0.95rem;
+}
+nav a:hover {
+    background-color: #bbb;
+    color: #36454f;
+}
+.active {
     color: yellow;
 }
-  
-  .responsive li {
-    display: block;
-  }
-
 
   
   /************* End of Navigation *********************************/

@@ -99,20 +99,27 @@ header img {
 
 
     /* Navigation */
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block;
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
 
-    .navigation li:first-child {
-		display: none;
-	}
+	nav ul { display: flex; }
+	nav ul li { flex: 1 1 100%; 
+
+nav a {
+	font-size: 1rem;
+}
+main {
+	grid-template-columns: 1fr 1fr;
+}
+article:nth-child(3) {
+	grid-column: span 2;
+}
+main picture {
+	display: block;
+}
+main picture img {
+	width: 100%;
+	height: auto;
+	border: 1px solid #bbb;
+}
 /*End of navigation***************/
 
 }
