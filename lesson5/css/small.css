@@ -78,10 +78,11 @@ header img {
     background-color: black;
   }
   
-  .navigation a:active {
-    color: white;
-    font-weight: bold;
+  .navigation a:active, .selected {
+    color: white !important;
+    font-weight: bold !important;
 }
+
   
   .responsive li {
     display: block;
