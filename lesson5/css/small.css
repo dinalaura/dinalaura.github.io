@@ -78,7 +78,9 @@ header img {
     background-color: black;
   }
   
-
+  .active {
+    color: yellow;
+}
   
   .responsive li {
     display: block;
