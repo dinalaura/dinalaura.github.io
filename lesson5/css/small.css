@@ -166,10 +166,7 @@ body { max-width: 60em;
       font-size: small;
     }
 
-    #map
-    {
-      margin:0px;
-    }
+  
     #map img{
       width: 100%;
     }
