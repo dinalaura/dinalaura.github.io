@@ -14,6 +14,9 @@
 		  left: 50px;
 	  }
 
+	  #article{
+		display: block;
+	  }
 	  #article img{
 		float:right;
 		border: 1px solid #bbb;

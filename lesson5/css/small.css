@@ -116,6 +116,7 @@ h2 {
 		  box-shadow: 0 0 30px #111;
       opacity: .8;
       padding-left: 0%;
+ 
     }
 
     #summary h3{
@@ -127,9 +128,13 @@ h2 {
       #summary li{
         list-style-type: none;
                }
-
+#article{
+  display: flex;
+  flex-direction: column-reverse;
+}
     #article img{
     max-width: 100%;
+  
       }
   
     #article a{
