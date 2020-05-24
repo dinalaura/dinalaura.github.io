@@ -166,7 +166,9 @@ body { max-width: 60em;
     #article a{
       font-size: small;
     }
- #forecast{
+
+
+ #hide, grid-container, grid-item{
   display: none;
 }
 
