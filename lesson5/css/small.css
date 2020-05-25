@@ -93,8 +93,9 @@ header img {
     text-decoration: underline 
 }
 
-
-
+.btn:hover {
+  text-decoration: none; 
+}
 
   
   /************* End of Navigation *********************************/
