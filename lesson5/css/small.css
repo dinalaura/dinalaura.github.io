@@ -211,7 +211,7 @@ body { max-width: 60em;
       padding: 0.75rem;
       box-shadow: 0 0 30px #111;
       background: radial-gradient(#fffaf3, #deb887);
-      opacity: 2;
+      /*opacity: 2;*/
       font-weight: bold;
     }
   /* End of Banner *****************************************/

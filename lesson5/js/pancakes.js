@@ -1,4 +1,4 @@
-let d = new Date()
+//let d = new Date()
 const banner = document.getElementById('banner');
 if(d.getDay() == 5){
   banner.style.display = 'block';
