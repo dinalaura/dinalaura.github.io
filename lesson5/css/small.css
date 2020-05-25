@@ -78,7 +78,7 @@ header img {
 
 
 
-/* Style the buttons */
+/************** buttons */
 .btn {
   border: none;
   outline: none;
@@ -86,11 +86,19 @@ header img {
   cursor: pointer;
 }
 
-/* Style the active class, and buttons on mouse-over */
-.active, .btn:hover {
+/* Active class***********/
+.active {
     background-color: rgb(228, 204, 174);
   color: black;
 }
+
+
+/************ mouse-over ******/
+nav a:hover {
+  color:white;
+    background-color:black;
+  
+  }
   
   /************* End of Navigation *********************************/
   
