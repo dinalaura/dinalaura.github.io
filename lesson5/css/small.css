@@ -214,3 +214,20 @@ body { max-width: 60em;
       opacity: 2;
       font-weight: bold;
     }
+  /* End of Banner *****************************************/
+
+
+    /****Social media icons***************************/
+
+    .icon-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      padding: 4px;
+    }
+    .icon{
+      padding: 0px;
+      text-align: center;
+    }
+
+
+  /**** End of Social media icons***************************/
