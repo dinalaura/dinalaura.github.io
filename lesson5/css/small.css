@@ -44,7 +44,6 @@ header img {
 /* Navigation ******************************************/
   nav {
     margin: 0 auto;
-    background-color: #deb887;
   }
 
   nav ul{ 
@@ -72,22 +71,29 @@ header img {
     font-weight: 700;
   }
 
-
-  .navigation a:hover {
-    color: white;
-    background-color: black;
-  }
-  .navigation a:active, .selected {
-    text-decoration: underline !important;
-    background-color: rgb(228, 204, 174);
-
-}
-
-
-  
   .responsive li {
     display: block;
   }
+
+
+
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+    background-color: #deb887;
+  cursor: pointer;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+    background-color: rgb(228, 204, 174);
+  color: black;
+    text-decoration: underline 
+}
+
+
 
 
   
