@@ -90,13 +90,7 @@ header img {
 .active, .btn:hover {
     background-color: rgb(228, 204, 174);
   color: black;
-    text-decoration: underline 
 }
-
-.btn:hover {
-  text-decoration: none; 
-}
-
   
   /************* End of Navigation *********************************/
   
