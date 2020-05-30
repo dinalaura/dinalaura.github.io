@@ -1,6 +1,6 @@
 WebFont.load({
     google: {
-      families: ['Cedarville Cursive']
+      families: ['Ubuntu']
     }
   });
 
