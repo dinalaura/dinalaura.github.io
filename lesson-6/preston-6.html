@@ -41,9 +41,13 @@
             <section>
             <h2>Preston Idaho</h2>
                 <div id="firstsection" >
+
                 <picture> 
-                    <img src="images/lake.jpg" alt="lake" id="heroimage">
+                    <source srcset="images/large.jpg" media="(min-width: 800px)">
+                    <source srcset="images/medium.jpg" media="(min-width:480px) and (max-width: 799px)">
+                    <img src="images/small.jpg" alt="Preston Idaho" id="heroimage">
                 </picture>
+
                     <div id="overlay" class="summary">
                         <h3>Weather Summary &#9788;</h3>
                         <div class="details">
