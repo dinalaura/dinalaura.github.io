@@ -32,8 +32,7 @@ function output(){
 
 	var output = windchill(tempF, speed);
 
-	document.getElementById('windchill').innerHTML = output.toFixed(2); 
-;
+	document.getElementById('windchill').innerHTML = output.toFixed(2);
 	}
 
 
