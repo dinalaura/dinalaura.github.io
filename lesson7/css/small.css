@@ -120,7 +120,6 @@ nav a:hover {
 
     #address{
   padding:1em;
-  margin: 1em;
   text-align: center;
 }
 
@@ -135,8 +134,8 @@ nav a:hover {
     } 
     #bottombox {
       display:flex;
-      flex-direction: row-reverse;
-      justify-content: left;
+      flex-direction: column;
+      justify-content: center;
       margin-bottom: 0px;
       border-bottom: 0px;
       } 
@@ -163,13 +162,14 @@ nav a:hover {
     .icon{
       padding: 0px;
       text-align: center;
+      
     }
 
 
   /**** End of Social media icons***************************/
 
 
-  /******** Grid***************************/
+  /******** images Grid***************************/
   .container {
     max-width: 400px;
     display:grid;
@@ -191,4 +191,4 @@ figcaption {
 .norm:hover {
   box-shadow: 0 0 50px #333;
 }
-  /******** end of Grid***************************/
+  /******** end of images Grid***************************/

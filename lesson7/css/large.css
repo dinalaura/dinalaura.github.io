@@ -1,7 +1,7 @@
 @media only screen and (min-width: 50em){
 
   .box{
-    max-width: 720px;
+    max-width: 700px;
   }
  
 
@@ -11,12 +11,13 @@
           margin-right: auto;
         }
 
-
+        /******** images Grid***************************/
         .container {
-          max-width: 800px;
+          max-width: 900px;
           grid-template-columns: 1fr 1fr 1fr; 
        
         }
-      
+        /******** end of images Grid***************************/
+
   }
   

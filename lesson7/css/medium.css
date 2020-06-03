@@ -49,6 +49,7 @@ header img {
 	}
 /*End of navigation***************/
 
+  /******** images Grid***************************/
 .container {
 	max-width: 700px;
 	grid-template-columns: 1fr 1fr;
@@ -63,5 +64,7 @@ header img {
 figure{
     margin: 1px;
   }
+    /******** end of images Grid***************************/
+
 }
 	
