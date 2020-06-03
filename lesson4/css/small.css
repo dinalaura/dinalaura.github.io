@@ -1,112 +1,115 @@
-
 /*headings********************/
 body {
   font-family: 'Nanum Gothic', sans-serif;
-	background-color: #bbb;
-	padding: 0;
-	margin: 0;
+  background-color: #bbb;
+  padding: 0;
+  margin: 0;
 }
 
 header {
-  background-color:#407899;
+  background-color: #407899;
   color: white;
-	padding: 5px 0;
-	display: flex;
-	align-items:center;
-	justify-content:center;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header img {
-	width: 80px;
-	height: auto;
+  width: 80px;
+  height: auto;
 }
 
 .headings {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .headings h1 {
-	font-size: 1.6rem;
-	margin: 0 0 0 17px;
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
 }
 
 .motto {
-	font-style: italic;
-	letter-spacing: 1pt;
-	margin-left: 20px;
-	font-size: .9rem;
+  font-style: italic;
+  letter-spacing: 1pt;
+  margin-left: 20px;
+  font-size: .9rem;
 }
 
 /*End of headings*************/
 
-  /* Navigation ***************/
-  nav {
-    margin: 0 auto;
-    background-color: burlywood;
-  }
+/* Navigation ***************/
+nav {
+  margin: 0 auto;
+  background-color: burlywood;
+}
 
-  nav ul{ 
+nav ul {
   margin: 0;
   padding: 0;
 }
-  
-  .navigation {
-    list-style: none;
-    padding: 0;
-  }
-  .navigation li:first-child {
-    display: block;
-    }
 
-  .navigation li {
-    display: none;
-  }
-  .navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-  }
+.navigation {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
 
 
-  .navigation a:hover {
-    color: white;
-    background-color: black;
-  }
-  
-  
-  .responsive li {
-    display: block;
-  }
-      /* End of Navigation ***************/
-  
+.navigation a:hover {
+  color: white;
+  background-color: black;
+}
+
+
+.responsive li {
+  display: block;
+}
+
+/* End of Navigation ***************/
+
 
 h2 {
-  text-align: center; 
-      }
-
-
-  .box {
-    display:block;
-    margin:10px auto;
-    border:2px dashed purple;
-    padding:15px;
-    background-color: coral; 
-  }
-  #bottombox {
-    margin-bottom: 0px;
-  } 
-
-  footer {
-    background-color:#407899;
-    text-align: center;
-    padding: .5rem;
-    color: white;     
+  text-align: center;
 }
-  footer a{
-    color:white;
-    } 
-    
+
+
+.box {
+  display: block;
+  margin: 10px auto;
+  border: 2px dashed purple;
+  padding: 15px;
+  background-color: coral;
+}
+
+#bottombox {
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: #407899;
+  text-align: center;
+  padding: .5rem;
+  color: white;
+}
+
+footer a {
+  color: white;
+}

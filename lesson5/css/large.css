@@ -1,17 +1,17 @@
-@media only screen and (min-width: 50em){
+@media only screen and (min-width: 50em) {
 
   .box {
     max-width: 720px;
   }
-     #firstsection{
-      max-width: 720px;
 
-     }
+  #firstsection {
+    max-width: 720px;
 
-        footer {
-          max-width: 720px;
-          margin-left: auto;
-          margin-right: auto;
-        }
   }
-  
+
+  footer {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

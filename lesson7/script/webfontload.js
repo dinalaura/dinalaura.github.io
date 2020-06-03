@@ -1,8 +1,8 @@
 WebFont.load({
-    google: {
-      families: ['Ubuntu']
-    }
-  });
+  google: {
+    families: ['Ubuntu']
+  }
+});
 
 
 

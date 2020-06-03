@@ -1,41 +1,45 @@
-@media only screen and (min-width: 30em){
-  
-    .box {
-        max-width: 500px;
-	   }
-	 
-/*Header */
-header img {
-	width: 80%;
-}
-.headings h1 {
-	font-size: 2rem;
-}
+@media only screen and (min-width: 30em) {
 
-.m {
-	letter-spacing: 1.5pt;
-	font-size: larger;
-	margin-left: 17px;
-}
-/*End of header*/
+	.box {
+		max-width: 500px;
+	}
+
+	/*Header */
+	header img {
+		width: 80%;
+	}
+
+	.headings h1 {
+		font-size: 2rem;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+
+	/*End of header*/
 
 
-    /* Navigation */
+	/* Navigation */
 	.navigation {
 		display: flex;
 	}
+
 	.navigation li {
 		display: block;
 		flex: 1 1 auto;
 	}
+
 	.navigation a {
 		text-align: center;
 	}
 
-    .navigation li:first-child {
+	.navigation li:first-child {
 		display: none;
 	}
-/*End of navigation***************/
+
+	/*End of navigation***************/
 
 }
-	

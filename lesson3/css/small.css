@@ -1,109 +1,118 @@
-#content{
-    max-width: 1000px;
-      margin-left: auto;
-    margin-right: auto;
-  }
-    body{
-      font-family: 'Nanum Gothic', sans-serif;
-    }
-  header {
-          background-color:#371042;
-          text-align: center;
-          padding:1rem;
-          color: white;
-      
-          }
-         
-      main {
-          font-size: .8rem;
-        
-      }
-  
-      footer {
-          background-color:#371042;
-          text-align: center;
-          padding: .5rem;
-          color: white;
-       
-      }
-    
-     img{
-          width: 50%;
-      }
-
-      #logo {
-        width: 30%;
+#content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
-  
-    h3 {
-      color: rgb(10, 7, 7);
-      padding: 1rem;
-      margin: 0px;
-  }  
-  p{
-      font-size: medium;
-      text-align: left;
-      font-weight: normal;
-  }
-  
-  
-  footer a{
-    color:white;
-    } 
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+header {
+  background-color: #371042;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+
+}
+
+main {
+  font-size: .8rem;
+
+}
+
+footer {
+  background-color: #371042;
+  text-align: center;
+  padding: .5rem;
+  color: white;
+
+}
+
+img {
+  width: 50%;
+}
+
+#logo {
+  width: 30%;
+}
+
+h3 {
+  color: rgb(10, 7, 7);
+  padding: 1rem;
+  margin: 0px;
+}
+
+p {
+  font-size: medium;
+  text-align: left;
+  font-weight: normal;
+}
+
+
+footer a {
+  color: white;
+}
 
 nav {
-	background-color: #8A6556;
-	text-align: center;
+  background-color: #8A6556;
+  text-align: center;
   margin-bottom: 1em;
 }
+
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-nav ul li a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-}
-nav a:hover {
-	background-color: #AD947D;
-	color: white;
-}
-nav a:active {
-	color: blue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-th, td {
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  background-color: #AD947D;
+  color: white;
+}
+
+nav a:active {
+  color: blue;
+}
+
+th,
+td {
   padding: 15px;
   text-align: left;
 }
-        
+
 
 #uno {
   background-color: #41D3BD;
 }
-#dos{
+
+#dos {
   background-color: #FFFFF2;
 }
+
 #tres {
   background-color: #791E94;
 }
-#cuatro{
+
+#cuatro {
   background-color: #DE6449;
 }
-#cinco{
-  background-color: #407899
-;
+
+#cinco {
+  background-color: #407899;
 }
 
-.white{
-    color:white;
+.white {
+  color: white;
 
 }
-
-
