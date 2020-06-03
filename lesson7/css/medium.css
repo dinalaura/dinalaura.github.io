@@ -55,12 +55,13 @@ header img {
   }
   .container img{
   width: 300px; 
-  margin: .5rem;
-
+  margin: 0px;
+justify-content: center;
 }
 figure{
-    margin: 1px;
+	margin:auto;
   }
+
     /******** end of images Grid***************************/
 
 }

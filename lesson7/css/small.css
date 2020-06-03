@@ -156,7 +156,6 @@ nav a:hover {
     .icon{
       padding: 0px;
       text-align: center;
-
     }
 
 
@@ -165,19 +164,17 @@ nav a:hover {
 
   /******** images Grid***************************/
   .container {
-    max-width: 400px;
     display:grid;
     margin-top: 1em;
     margin-bottom: 1em;
     }
   
-  figure{
-    margin: 0px;
-
-  }
 .container img { 
   max-width: 100%;
   height: auto; 
+}
+figure{
+  margin: 0px;
 }
 figcaption {
   font-size: smaller;
