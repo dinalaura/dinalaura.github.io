@@ -118,10 +118,6 @@ nav a:hover {
       width: 100%;
     }
 
-    #address{
-  padding:1em;
-  text-align: center;
-}
 
   footer {
     background-color:rgb(64, 120, 153);
@@ -133,9 +129,7 @@ nav a:hover {
     color:white;
     } 
     #bottombox {
-      display:flex;
-      flex-direction: column;
-      justify-content: center;
+      text-align: center;
       margin-bottom: 0px;
       border-bottom: 0px;
       } 
@@ -156,13 +150,13 @@ nav a:hover {
 
     .icon-container {
       display: grid;
-      grid-template-columns: auto auto auto auto auto;
-      padding: 4px;
+      grid-template-columns:1fr 1fr 1fr 1fr;
+      padding: 4px;  
     }
     .icon{
       padding: 0px;
       text-align: center;
-      
+
     }
 
 
@@ -179,6 +173,7 @@ nav a:hover {
   
   figure{
     margin: 0px;
+
   }
 .container img { 
   max-width: 100%;
