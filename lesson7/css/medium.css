@@ -63,7 +63,10 @@
 
 	.container img {
 		width: 300px;
-		margin: 0px;
+		margin-top: 1rem;
+		margin-right: auto;
+		margin-bottom: 1rem;
+		margin-left: auto;
 		justify-content: center;
 	}
 

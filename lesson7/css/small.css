@@ -178,7 +178,11 @@ footer a {
 .container img {
   max-width: 100%;
   height: auto;
-}
+	margin-top: 1rem;
+		margin-right: auto;
+		margin-bottom: 1rem;
+		margin-left: auto;
+		justify-content: center;}
 
 figure {
   margin: 0px;
