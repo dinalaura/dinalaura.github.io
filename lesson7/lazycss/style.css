@@ -26,8 +26,12 @@ h1 {
     color: white;
 }
 
-div img[data-src] {
+  
+  img[src] {
     filter: blur(0.2em);
   }
   
- 
+  img[data-src] {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
