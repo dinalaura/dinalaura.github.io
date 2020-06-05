@@ -26,11 +26,11 @@ h1 {
     color: white;
 }
 
-img[data-src] {
+img {
     filter: blur(0.2em);
 }
 
-img {
+img{
     filter: blur(0em);
     transition: filter 0.5s;
 }
