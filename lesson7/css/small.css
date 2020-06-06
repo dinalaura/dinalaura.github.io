@@ -176,7 +176,7 @@ footer a {
   margin-bottom: 1em;
 }
 
-.container img[data-src] {
+.container img {
   max-width: 100%;
   height: auto;
   margin-top: 1rem;
