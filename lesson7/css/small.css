@@ -1,4 +1,4 @@
-/*headings********************/
+/*header********************/
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #bbb;
@@ -16,21 +16,20 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-
+header picture{
+  margin-right: 0px;
+  margin-left: 0px;
+}
 
 header img {
   width: 80px;
   height: auto;
 }
 
-.headings {
-  display: flex;
-  flex-direction: column;
-}
-
-.headings h1 {
+header h1 {
   font-size: 1.6rem;
   margin: 0 0 0 17px;
+
 }
 
 .motto {
@@ -40,7 +39,7 @@ header img {
   font-size: .9rem;
 }
 
-/*End of headings*************/
+/*End of header*************/
 
 
 /* Navigation ******************************************/
