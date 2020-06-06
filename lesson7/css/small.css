@@ -189,14 +189,7 @@ picture {
   margin: 0px;
 }
 
-figcaption {
-  font-size: smaller;
-}
 
-/* hover effect */
-.norm:hover {
-  box-shadow: 0 0 50px #333;
-}
 
 /******** end of images Grid***************************/
 h2 {
@@ -214,3 +207,7 @@ h2 {
   transition: filter 0.5s;
 }
 /******** End of blur***************************/
+img[src]{
+  max-width: 479px;
+  max-height: 320px;
+}
