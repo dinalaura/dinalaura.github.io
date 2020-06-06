@@ -17,6 +17,7 @@ header {
   margin-right: auto;
 }
 
+
 header img {
   width: 80px;
   height: auto;
@@ -175,7 +176,7 @@ footer a {
   margin-bottom: 1em;
 }
 
-.container img {
+.container img[data-src] {
   max-width: 100%;
   height: auto;
   margin-top: 1rem;
@@ -207,7 +208,3 @@ h2 {
   transition: filter 0.5s;
 }
 /******** End of blur***************************/
-img[src]{
-  max-width: 479px;
-  max-height: 320px;
-}

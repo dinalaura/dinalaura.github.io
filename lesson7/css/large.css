@@ -26,12 +26,6 @@
 
   /******** end of images Grid***************************/
 
-
-  img[src] {
-    max-width: 250px;
-    max-height: 167px;
-  }
-
   /* hover effect */
   .norm:hover {
     box-shadow: 0 0 50px #333;
