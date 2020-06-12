@@ -1,5 +1,8 @@
-body {
+
+table{
     font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0 0 40px #375b61;
+  
 }
 
 thead tr:nth-child(even){
@@ -18,4 +21,5 @@ tbody tr:nth-child(even){
 
 thead tr:nth-child(odd), tfoot {
     background-color:#7fb9c2;
+   
   } 
