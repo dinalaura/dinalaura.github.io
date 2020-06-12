@@ -2,7 +2,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-  {
+thead tr:nth-child(even){
     background-color:#628ca6;
     color:white;
 }
