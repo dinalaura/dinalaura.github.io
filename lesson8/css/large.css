@@ -1,0 +1,39 @@
+@media only screen and (min-width: 50em) {
+
+  .box {
+    max-width: 700px;
+  }
+
+
+  footer {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /******** images Grid***************************/
+  .container {
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container img {
+    width: 250px;
+  }
+
+  figure {
+    margin: 1em 1em 1em 1em;
+  }
+
+  /******** end of images Grid***************************/
+
+  /* hover effect */
+  .norm:hover {
+    box-shadow: 0 0 50px #333;
+    /******* end of hover effect */
+
+  }
+  figcaption{
+    display:inline;
+  }
+}
