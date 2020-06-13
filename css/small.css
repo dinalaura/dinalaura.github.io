@@ -53,3 +53,7 @@ footer a {
 #currentdate {
   color: rgb(255, 255, 255);
 }
+
+ul {
+  line-height: 1.5em;
+}
