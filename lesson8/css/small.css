@@ -167,46 +167,9 @@ footer a {
 
 /**** End of Social media icons***************************/
 
-
-/******** images Grid***************************/
-.container {
-  display: grid;
-  margin-top: 1em;
-  margin-bottom: 1em;
+/***************Form*********************/
+main h1 {
+  text-align: center;
 }
 
-.container img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 1rem;
-  margin-right: auto;
-  margin-bottom: 1rem;
-  margin-left: auto;
-  justify-content: center;
-}
-
-figure {
-  margin: 0px;
-}
-
-
-
-/******** end of images Grid***************************/
-h2 {
-  font-size: 1em;
-}
-/******** Blur***************************/
-
-
- img[data-src] {
-  filter: blur(0.2em);
-}
-
- img {
-  filter: blur(0em);
-  transition: filter 0.5s;
-}
-/******** End of blur***************************/
-figcaption{
-  display:none;
-}
+/***************End of Form*********************/
