@@ -168,18 +168,21 @@ footer a {
 /**** End of Social media icons***************************/
 
 /***************Form*********************/
+
+
 main h1 {
   text-align: center;
 }
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #445na9;
+  border: 1px dashed purple;
   border-radius: 10px;
   padding: .5rem 2%
 }
 
 form legend{
-  color: #445ba9;
+  color:black;
+  font-weight: bold;
   margin: 0 1rem;
   padding: 0 .5rem; 
 }
@@ -228,7 +231,8 @@ form label.sb{
 }
 form input.submitBtn{
   border:none;
-  background-color: #9c2c13;
+  background-color: rgb(64, 120, 153);
+  box-shadow: 0 0 5px #375b61;
   color:white;
   border-radius: 1rem;
   padding:.75rem 1.5rem;
