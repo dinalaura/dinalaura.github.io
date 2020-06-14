@@ -11,7 +11,7 @@ table {
 
 }
 
-thead tr:nth-child(even) {
+thead tr:nth-child(even), tr:nth-child(4) > td:nth-child(3) {
     background-color: #628ca6;
     color: white;
 }
@@ -36,4 +36,17 @@ thead tr:nth-child(odd) th {
     padding-top: .3em;
     padding-left: 1.3em;
     padding-right: 1.3em;
+}
+
+tr:nth-child(5) > td:nth-child(1){
+    font-style: italic;
+}
+
+tfoot td{
+    text-align: center;
+}
+
+#blackf{
+    text-align: center;
+
 }
