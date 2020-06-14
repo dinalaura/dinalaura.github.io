@@ -54,4 +54,9 @@ thead tr:nth-child(odd) th {
 tfoot td{
     text-align: center;
 }
-
+table, td, th {
+    border-spacing: 0px;
+    border-style: solid;
+     border-width: thin;
+     border-color: lightgray;
+  }
