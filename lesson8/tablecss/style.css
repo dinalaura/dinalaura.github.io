@@ -8,7 +8,7 @@ table {
     margin-left: auto;
     margin-top: auto;
     margin-right: auto;
-
+    text-align: center;
 }
 
 thead tr:nth-child(even), tr:nth-child(4) > td:nth-child(3) {
@@ -18,6 +18,7 @@ thead tr:nth-child(even), tr:nth-child(4) > td:nth-child(3) {
 
 tbody tr:nth-child(odd) {
     background-color: #e7f0ed;
+
 }
 
 
@@ -38,7 +39,7 @@ thead tr:nth-child(odd) th {
     padding-right: 1.3em;
 }
 
-tr:nth-child(5) > td:nth-child(1){
+#blackf{
     font-style: italic;
 }
 
@@ -46,7 +47,3 @@ tfoot td{
     text-align: center;
 }
 
-#blackf{
-    text-align: center;
-
-}
