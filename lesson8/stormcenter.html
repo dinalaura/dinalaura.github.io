@@ -39,7 +39,7 @@
         </ul>
     </nav>
     <main>
-        <h1>Storm Center</h1>
+        <h1>Storm Center Form</h1>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Personal Information</legend>
@@ -51,7 +51,16 @@
             </fieldset>
 
             <fieldset>
-                <legend>Danger level</legend>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date <input type="date" name="completeDate"></label>
+                <label class="top">Storm Region
+                <select name="subject">
+                    <option value="">Select Region $#9662;</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+            </label>
                 <div>user in-danger level</div>
                 <label class="sbs"><input type="radio" name="audience" value="yes"> Yes</label>
                 <label class="sbs"><input type="radio" name="audience" value="maybe"> Maybe</label>
@@ -64,16 +73,8 @@
             </fieldset>
         
             <fieldset>
-                <legend>Storm Report</legend>
-                <label class="top">Storm Date <input type="date" name="completeDate"></label>
-                <label class="top">Storm Region
-                <select name="subject">
-                    <option value="">Select Region $#9662;</option>
-                    <option value="Preston">Preston</option>
-                    <option value="Soda Springs">Soda Springs</option>
-                    <option value="Fish Haven">Fish Haven</option>
-                </select>
-            </label>
+                <legend>Additional Details</legend>
+                
             </fieldset>
         
             <input type="submit" value="Report Storm" class="submitBtn">
