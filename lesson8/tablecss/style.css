@@ -4,14 +4,15 @@ h1 {
 
 table {
     font-family: 'Ubuntu', sans-serif;
-    box-shadow: 0 0 40px #375b61;
+    box-shadow: 10px 10px 18px 0px rgba(98, 140, 166, 1);
     margin-left: auto;
     margin-top: auto;
     margin-right: auto;
     text-align: center;
 }
 
-thead tr:nth-child(even), tr:nth-child(4) > td:nth-child(3) {
+thead tr:nth-child(even),
+tr:nth-child(4)>td:nth-child(3) {
     background-color: #628ca6;
     color: white;
 }
@@ -19,14 +20,17 @@ thead tr:nth-child(even), tr:nth-child(4) > td:nth-child(3) {
 tbody tr:nth-child(odd) {
     background-color: #e7f0ed;
 }
-tbody{
-font-size: 1.3em;
+
+tbody {
+    font-size: 1.3em;
 }
-th{
+
+th {
     padding: .5em;
     font-size: 1.3em;
 }
-td{
+
+td {
     padding: .5em;
 }
 
@@ -47,16 +51,19 @@ thead tr:nth-child(odd) th {
     padding-right: 1.3em;
 }
 
-#blackf{
+#blackf {
     font-style: italic;
 }
 
-tfoot td{
+tfoot td {
     text-align: center;
 }
-table, td, th {
+
+table,
+td,
+th {
     border-spacing: 0px;
     border-style: solid;
-     border-width: thin;
-     border-color: lightgray;
-  }
+    border-width: thin;
+    border-color: lightgray;
+}
