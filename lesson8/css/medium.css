@@ -54,5 +54,10 @@ form{
 	margin-right: auto;
   }
 
+  textarea {
+	width: 30em; 
+	height:10em;
+  }
+
 	/***************End of Form*********************/
 }

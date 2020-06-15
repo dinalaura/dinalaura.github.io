@@ -259,4 +259,8 @@ form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
+textarea {
+	width: 25em; 
+	height:10em;
+  }
 /***************End of Form*********************/
