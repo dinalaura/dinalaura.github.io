@@ -58,6 +58,9 @@ form{
 	width: 30em; 
 	height:10em;
   }
+  form input.submitBtn{
+	max-width: 20rem;
 
+  }
 	/***************End of Form*********************/
 }
