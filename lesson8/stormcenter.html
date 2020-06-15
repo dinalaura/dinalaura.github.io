@@ -39,7 +39,7 @@
         </ul>
     </nav>
     <main>
-        <h1>Storm Center Form</h1>
+        <h2>Storm Center Form</h2>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Personal Information</legend>
@@ -75,21 +75,21 @@
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
-                <datalist id="tickmarks">
-                    <option value="0"></option>
-                    <option value="1"></option>
-                    <option value="2"></option>
-                    <option value="3"></option>
-                    <option value="4"></option>
-                    <option value="5"></option>
-                    <option value="6"></option>
-                    <option value="7"></option>
-                    <option value="8"></option>
-                    <option value="9"></option>
-                    <option value="10"></option>
-                </datalist>
+                    <datalist id="tickmarks">
+                        <option value="0"></option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist>
                 </label>
-           
+
 
                 <label class="top">Storm Region
                     <select name="stormRegion">
@@ -99,7 +99,7 @@
                         <option value="Fish Haven">Fish Haven</option>
                     </select>
                 </label>
-          
+
                 <div>User in-danger level</div>
                 <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
                 <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
@@ -109,9 +109,9 @@
             <fieldset>
                 <legend>Additional Details</legend>
                 <label class="top">
-                <textarea name="details">
+                    <textarea name="details">
                 </textarea>
-            </label>
+                </label>
             </fieldset>
 
             <input type="submit" value="Report Storm" class="submitBtn">
