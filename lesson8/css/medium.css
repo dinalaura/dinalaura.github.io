@@ -62,5 +62,13 @@ form{
 	max-width: 20rem;
 
   }
-	/***************End of Form*********************/
+
+  form label.top input,
+  form label.top select {
+
+	max-width: 20rem;
+  }
+
+
+  /***************End of Form*********************/
 }
