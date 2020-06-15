@@ -71,7 +71,7 @@
                 </label>
 
                 <label>Storm Severity &nbsp;&nbsp;&nbsp;
-                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                    <input type="range" name="severity" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
                     <datalist id="tickmarks">
@@ -111,7 +111,7 @@
                 </label>
             </fieldset>
 
-            <input type="submit" value="Report Storm" class="submitBtn">
+            <input type="submit" name="button" value="Report Storm" class="submitBtn">
         </form>
 
         <section class="box" id="bottombox">
