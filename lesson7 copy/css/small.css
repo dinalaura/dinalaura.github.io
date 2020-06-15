@@ -1,0 +1,273 @@
+/*header********************/
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #bbb;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #407899;
+  color: white;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header picture {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
+
+}
+
+.motto {
+  font-style: italic;
+  letter-spacing: 1pt;
+  margin-left: 20px;
+  font-size: .9rem;
+}
+
+/*End of header*************/
+
+
+/* Navigation ******************************************/
+nav {
+  margin: 0 auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+}
+
+.responsive li {
+  display: block;
+}
+
+
+
+
+/************** buttons */
+.btn {
+  border: none;
+  outline: none;
+  background-color: #deb887;
+  cursor: pointer;
+}
+
+/* Active class***********/
+.active {
+  background-color: rgb(228, 204, 174);
+  color: black;
+}
+
+
+/************ mouse-over ******/
+nav a:hover {
+  color: white;
+  background-color: black;
+
+}
+
+/************* End of Navigation *********************************/
+
+
+.box{
+  display: block;
+  margin: 10px auto;
+  border: 2px dashed purple;
+  padding: 15px;
+  background-color: rgba(255, 127, 80, .80);
+}
+
+
+#map img {
+  width: 100%;
+}
+
+
+footer {
+  background-color: rgb(64, 120, 153);
+  text-align: center;
+  padding: .5rem;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+#bottombox {
+  text-align: center;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+/* Banner *****************************************/
+#banner {
+  display: none;
+  text-align: center;
+  padding: 0.75rem;
+  box-shadow: 0 0 30px #111;
+  background: radial-gradient(#fffaf3, #deb887);
+  /*opacity: 2;*/
+  font-weight: bold;
+}
+
+/* End of Banner *****************************************/
+
+
+/****Social media icons***************************/
+
+.icon-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 4px;
+}
+
+.icon {
+  padding: 0px;
+  text-align: center;
+}
+
+
+/**** End of Social media icons***************************/
+
+/***************Form*********************/
+
+
+main h2 {
+  text-align: center;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 2px dashed purple;
+  border-radius: 10px;
+  padding: .5rem 2%
+}
+
+form legend {
+  color: black;
+  font-weight: bold;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color:black;
+  font-size: .8rem;
+}
+
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: black;
+}
+
+form input.submitBnt {
+  border: none;
+  background-color: #9c2c13;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+}
+
+form label.sb {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: rgb(64, 120, 153);
+  box-shadow: 0 0 5px #375b61;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+}
+
+form input.submitBtn:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 5px black;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+textarea {
+	width: 25em; 
+	height:10em;
+  }
+
+  .page{
+    text-align: center;
+      display: block;
+      margin: 10px auto;
+      border: 2px dashed purple;
+      padding: 15px;
+      max-width: 20em;
+      margin: auto auto 7em auto ;
+    }
+/***************End of Form*********************/
