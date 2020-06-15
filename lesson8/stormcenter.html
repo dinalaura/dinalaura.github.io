@@ -61,21 +61,19 @@
                 <label class="top">Storm Date <input type="date" name="completeDate"></label>
                 <label class="top" for="stormType">Storm Type
                     <input name="stormType" list="stormType"></label>
+                    <datalist id="stormType">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+
                 <label for="rating">Storm Severity &nbsp;&nbsp;&nbsp;
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
                 </label>
-                <datalist id="stormType">
-                    <option value="Flash Flood">
-                    <option value="Hail">
-                    <option value="Hurricane">
-                    <option value="Thunderstorm">
-                    <option value="Tornado">
-                </datalist>
-
-
-
                 <datalist id="tickmarks">
                     <option value="0">
                     <option value="1">
@@ -89,6 +87,9 @@
                     <option value="9">
                     <option value="10">
                 </datalist>
+             
+                </label>
+           
 
                 <label class="top">Storm Region
                     <select name="subject">
@@ -97,7 +98,7 @@
                         <option value="Soda Springs">Soda Springs</option>
                         <option value="Fish Haven">Fish Haven</option>
                     </select>
-                </label>
+          
                 <div>User in-danger level</div>
                 <label class="sbs"><input type="radio" name="audience" value="yes"> Yes</label>
                 <label class="sbs"><input type="radio" name="audience" value="maybe"> Maybe</label>
