@@ -107,7 +107,7 @@ nav a:hover {
 /************* End of Navigation *********************************/
 
 
-.box {
+.box{
   display: block;
   margin: 10px auto;
   border: 2px dashed purple;
@@ -263,7 +263,14 @@ textarea {
 	width: 25em; 
 	height:10em;
   }
-  p{
+
+  .page{
     text-align: center;
-  }
+      display: block;
+      margin: 10px auto;
+      border: 2px dashed purple;
+      padding: 15px;
+      max-width: 20em;
+      margin: auto auto 7em auto ;
+    }
 /***************End of Form*********************/
