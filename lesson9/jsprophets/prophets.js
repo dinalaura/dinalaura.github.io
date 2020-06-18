@@ -13,8 +13,8 @@ fetch(requestURL)
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p');
 
-    h2.textContent = prophet.name + ' ' + prophet.lastname;
-    p1.innerHTML = "<strong>" + prophet.birthdate + "</strong>";
+    h2.textContent = `${prophet.name} ${prophet.lastname}`;
+    p1.innerHTML = `<strong>Date of Birth${prophet.birthdate}</strong>`;
 
     card.appendChild(h2);
     card.appendChild(p1);
