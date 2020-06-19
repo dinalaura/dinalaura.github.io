@@ -3,6 +3,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    img{
+        width: auto;
+        height: 15em;
+    }
     
 }
 
@@ -11,10 +15,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
 
-    }
-    img{
-        width: auto;
-        height: 15em;
     }
 }
 
