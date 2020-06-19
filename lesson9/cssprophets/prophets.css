@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 30em) {
     div {
         display: grid;
@@ -10,11 +9,11 @@
     div {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+
     }
 }
 
-div{
+div {
     background-color: #BCBCBC;
     box-shadow: 0 0 40px #2b2929;
     padding: 1em;
@@ -47,5 +46,6 @@ p {
 img {
     margin-top: 1.5em;
     max-width: 80%;
+    text-align: center!important;
     box-shadow: 0 0 40px #2b2929;
 }
