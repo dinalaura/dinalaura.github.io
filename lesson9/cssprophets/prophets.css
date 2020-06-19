@@ -3,6 +3,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    img{
+        display: block;
+        width: auto;
+        height: 15em;
+    }
 }
 
 @media only screen and (min-width: 50em) {
@@ -46,8 +51,5 @@ p {
 img {
     max-width: 80%;
     box-shadow: 0 0 40px #2b2929;
-    display: block;
-    width: auto;
-    height: 15em;
     margin-top: 1em;
 }
