@@ -1,0 +1,38 @@
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #BCBCBC;
+    box-shadow: 0 0 40px #2b2929;
+    padding: 1.5em;
+    margin: 1.5em;
+}
+
+section {
+    background-color: #9D9DB0;
+    padding: 1.5em;
+    margin: .25em;
+    border: 1px solid #414083;
+}
+
+footer {
+    text-align: center;
+    margin: 1.5em;
+}
+
+h1,
+h2 {
+    color: #414083;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+    line-height: .5em;
+}
+
+img {
+    margin-top: 1.5em;
+    max-width: 75%;
+    box-shadow: 0 0 40px #2b2929;
+}
