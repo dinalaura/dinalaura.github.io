@@ -21,7 +21,7 @@ fetch(requestURL)
     p1.innerHTML = `Date of Birth: ${prophet.birthdate}`;
     p2.innerHTML = `Place of Birth: ${prophet.birthplace}`;
     image.setAttribute('src', prophet.imageurl);
-    image.setAttribute('alt', `${prophet.name} ${prophet.lastname}`);
+    image.setAttribute('alt', `${prophet.name} ${prophet.lastname} - ${prophet}`);
 
 
     card.appendChild(h2);
