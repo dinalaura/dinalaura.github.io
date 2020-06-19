@@ -39,102 +39,10 @@
         </ul>
     </nav>
     <main>
-        <section>
-            <h2>Preston Idaho</h2>
-            <div id="firstsection">
 
-                <picture>
-                    <source srcset="images/large.jpg" media="(min-width: 800px)">
-                    <source srcset="images/medium.jpg" media="(min-width:480px) and (max-width: 799px)">
-                    <img src="images/small.jpg" alt="Preston Idaho" id="heroimage">
-                </picture>
-
-                <div id="overlay" class="summary">
-                    <h3>Weather Summary &#9788;</h3>
-                    <div class="details">
-                        <div class="label">Currently:</div>
-                        <div class="value">Sunny</div>
-
-                        <div class="label">High:</div>
-                        <div class="value"><span id="high">30</span> &deg;F</div>
-
-                        <div class="label">Wind Chill: </div>
-                        <div class="value"><span id="windchill"></span> &deg;F</div>
-
-                        <div class="label">Humidity:</div>
-                        <div class="value">69%</div>
-
-                        <div class="label">Wind Speed:</div>
-                        <div class="value"><span id="speed">7</span> mph</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="hide">
-
-            <h3>5 Day Forecast</h3>
-
-
-            <div class="grid-container">
-                <div class="grid-header">Wed</div>
-                <div class="grid-header">Thu</div>
-                <div class="grid-header">Fri</div>
-                <div class="grid-header">Sat</div>
-                <div class="grid-header">Sun</div>
-                <div class="grid-image">
-                    <img src="images/sun.png" alt="Sun Icon">
-                </div>
-                <div class="grid-image">
-                    <img src="images/sun.png" alt="Sun Icon">
-                </div>
-                <div class="grid-image">
-                    <img src="images/sun.png" alt="Sun Icon">
-                </div>
-                <div class="grid-image">
-                    <img src="images/sun.png" alt="Sun Icon">
-                </div>
-                <div class="grid-image">
-                    <img src="images/sun.png" alt="Sun Icon">
-                </div>
-                <div class="grid-f">89&deg;F</div>
-                <div class="grid-f">87&deg;F</div>
-                <div class="grid-f">78&deg;F</div>
-                <div class="grid-f">75&deg;F</div>
-                <div class="grid-f">72&deg;F</div>
-            </div>
-
-        </section>
-
-        <section id="article" class="box">
-            <picture>
-                <img src="images/sunflowerfield.jpg" alt="sunflower Field">
-            </picture>
-            <div>
-                <h3>Founders Day Fresco</h3>
-                <p>
-                    by Dina Moreno <br>
-                    <br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in fringilla lacus. <br>
-                    Sed porta ante et elit tincidunt tempor. Phasellus egestas nec lorem sit amet vehicula. <br>
-                    Cras efficitur semper magna, vitae ultricies nisl ullamcorper pulvinar. Cras volutpat, <br>
-                    mi sed lacinia luctus, turpis dui ullamcorper nisl, a suscipit sapien augue ut nulla. <br>
-                    Maecenas mollis, felis non molestie ultricies, quam ex ornare dolor, sit amet bibendum <br>
-                    nunc diam a odio. Aliquam lobortis porttitor mi, ut ornare magna mollis ac. Duis id <br>
-                    enim quis velit ornare elementum at et mi. Quisque non augue vitae mi sollicitudin <br>
-                    tincidunt. Cras mattis efficitur ipsum et sagittis. Morbi convallis diam at arcu ultrices,<br>
-                    eu semper lectus posuere. Vivamus semper at nisi vitae luctus. Sed blandit sapien odio, <br>
-                    vitae lobortis ipsum luctus sit amet. Duis placerat tincidunt justo ac ornare... <br>
-                    <a href="#">continue to full article</a>
-                </p>
-            </div>
-        </section>
-
+            <div class="cards"></div>
+        
         <section class="box" id="bottombox">
-
-
-
             <div id="address">
                 <h4>How's outside</h4>
                 <p><img alt="Location Icon" src="images/location.png">30 N 1st E <br>
@@ -188,6 +96,7 @@
         <br>
         <span id="date"></span>
     </footer>
+    <script src="script/json.js"></script>
     <script src="script/date.js"></script>
     <script src="script/responsive.js"></script>
     <script src="script/pancakes.js"></script>
