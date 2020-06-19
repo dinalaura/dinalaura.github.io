@@ -271,3 +271,13 @@ textarea {
       margin: auto auto 7em auto ;
     }
 /***************End of Form*********************/
+/* size*********************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 60em;
+  margin: 0 auto;
+}
+/***End of size********************************/
