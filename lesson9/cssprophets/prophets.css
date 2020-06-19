@@ -19,17 +19,17 @@
 }
 
 div {
-    background-color: #BCBCBC;
+    background-color:  rgb(212, 192, 166);
     box-shadow: 0 0 40px #2b2929;
     padding: 1em;
     margin: 1em;
 }
 
 section {
-    background-color: #9D9DB0;
+    background-color:antiquewhite;
     padding: 1.5em;
     margin: .25em;
-    border: 1px solid #414083;
+    border: 1px solid black;
 }
 
 footer {
@@ -39,8 +39,9 @@ footer {
 
 h1,
 h2 {
-    color: #414083;
+    color:black;
     text-align: center;
+    font-family: cursive;
 }
 
 p {
