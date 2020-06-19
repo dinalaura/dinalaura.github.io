@@ -76,9 +76,6 @@ nav ul {
   display: block;
 }
 
-
-
-
 /************** buttons */
 .btn {
   border: none;
@@ -104,11 +101,6 @@ nav a:hover {
 /************* End of Navigation *********************************/
 
 
-h2 {
-  text-align: center;
-}
-
-
 .box {
   display: block;
   margin: 10px auto;
@@ -117,34 +109,7 @@ h2 {
   background-color: rgba(255, 127, 80, .80);
 }
 
-#firstsection {
-  display: block;
-  margin: 10px auto;
-  position: relative;
-  margin-bottom: 3.5em;
-}
-
-#heroimage {
-  display: block;
-  margin: 10px auto;
-  width: 100%;
-}
-
-/* summary*********************/
-.details {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: .25rem;
-}
-
-.details .label {
-  text-align: right;
-}
-
-.details .value {
-  color: #FFFF6B;
-}
-
+/* size*********************/
 * {
   box-sizing: border-box;
 }
@@ -153,57 +118,7 @@ body {
   max-width: 60em;
   margin: 0 auto;
 }
-
-.summary {
-  background: #407899;
-  border: 1px solid #777;
-  padding: 0 .75rem 1rem;
-  color: #ffffff;
-  box-shadow: 0 0 40px #444;
-  width: 300px;
-  margin: 20px auto;
-}
-
-.summary h3 {
-  border-bottom: .5px solid #ffffff;
-  padding-bottom: 2px;
-  margin: 5px 5px 10px 5px;
-}
-
-.summary div {
-  line-height: 1.2;
-  padding: .1rem;
-  margin: 0;
-}
-
-/***End of summary********************************/
-#overlay {
-  position: absolute;
-  top: 5px;
-  left: 40px;
-  border: 1px solid #000;
-  padding: .5rem;
-  box-shadow: 0 0 30px #111;
-  opacity: .85;
-
-}
-
-#article {
-  display: flex;
-  flex-direction: column-reverse;
-  margin: 70px auto 10px auto;
-
-}
-
-#article img {
-  max-width: 100%;
-
-}
-
-#article a {
-  font-size: small;
-}
-
+/***End of size********************************/
 
 #hide,
 grid-container,
@@ -258,6 +173,5 @@ footer a {
   padding: 0px;
   text-align: center;
 }
-
 
 /**** End of Social media icons***************************/
