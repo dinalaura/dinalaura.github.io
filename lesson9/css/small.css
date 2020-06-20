@@ -84,21 +84,21 @@ nav ul {
   cursor: pointer;
 }
 
-/* Active class***********/
+/* Active class-------------------------*/
 .active {
   background-color: rgb(228, 204, 174);
   color: black;
 }
 
 
-/************ mouse-over ******/
+/*------------------------- mouse-over -------------------------*/
 nav a:hover {
   color: white;
   background-color: black;
 
 }
 
-/************* End of Navigation *********************************/
+/*------------------------- End of Navigation -------------------------*/
 
 
 .box {
@@ -109,7 +109,7 @@ nav a:hover {
   background-color: rgba(255, 127, 80, .80);
 }
 
-/* size*********************/
+/* size-------------------------*/
 * {
   box-sizing: border-box;
 }
@@ -118,7 +118,7 @@ body {
   max-width: 60em;
   margin: 0 auto;
 }
-/***End of size********************************/
+/*-----End of size-------------------------*/
 
 #hide,
 grid-container,
@@ -147,7 +147,7 @@ footer a {
   color: white;
 }
 
-/* Banner *****************************************/
+/*------------------Banner -------------------------*/
 #banner {
   display: none;
   text-align: center;
@@ -158,10 +158,10 @@ footer a {
   font-weight: bold;
 }
 
-/* End of Banner *****************************************/
+/*----- End of Banner ----------------------------------*/
 
 
-/****Social media icons***************************/
+/*-----Social media icons----------------------------*/
 
 .icon-container {
   display: grid;
@@ -174,4 +174,6 @@ footer a {
   text-align: center;
 }
 
-/**** End of Social media icons***************************/
+/*------ End of Social media icons-------------------------*/
+
+
