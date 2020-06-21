@@ -156,7 +156,7 @@ footer a {
 
 .icon-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto auto auto;
   padding: 4px;
 }
 
