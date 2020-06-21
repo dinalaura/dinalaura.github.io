@@ -15,6 +15,8 @@
 main #article {
   margin-top:3em;
   max-width: 720px;
+  margin: 70px auto 10px auto;
+  padding: 1em 1em 1em 1em;
 }
 main .cards  {
   display: grid;
@@ -31,13 +33,6 @@ margin:1em;
 section:nth-child(2) > img, section:nth-child(1) > img{
   padding-top: 3em;
   }
-main article {
-  display: flex;
-  flex-direction: column-reverse;
-  margin: 70px auto 10px auto;
-  background-color: rgba(255, 127, 80, .80);
-  padding: 1em;
-}
 
 /*------------End of Flex----------------------------------------*/
 
