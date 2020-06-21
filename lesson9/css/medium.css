@@ -128,7 +128,7 @@
 	/*End of navigation***************/
 
 
-	/*------------Flex----------------------------------------*/
+	/*------------Grid----------------------------------------*/
 	@media only screen and (min-width: 30em) and (max-width: 49em) {
 
 		main .cards section {
@@ -143,10 +143,21 @@
 
 		main .cards img {
 			grid-column: 2;
+			position: relative;
+			position: -170;
 		}
 
 		main .cards h2, main .cards p  {
 			grid-column: 1;
+		}
+
+		section:nth-child(2) > img{
+			grid-column: 1;
+		}
+		section:nth-child(2) > h2, section:nth-child(2) > p {
+	
+			grid-column: 2;
+
 		}
 
 		main .cards img {
@@ -185,6 +196,11 @@
 			padding: 1em 1em 1em 1em;
 		  }
 
-	/*------------End of Flex----------------------------------------*/
+		  img {
+			top: -170px;
+		   }
+		   
+
+	/*------------End of Grid----------------------------------------*/
 
 }
