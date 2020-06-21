@@ -171,6 +171,13 @@
 			text-align: center;
 	}
 
+
+	main .cards section {
+		margin-bottom:1em;
+		margin-top:1em;
+		max-width: 700px;
+		}
+
 	/*------------End of Flex----------------------------------------*/
 
 }
