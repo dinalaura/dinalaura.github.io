@@ -40,3 +40,8 @@ fetch(requestURL)
     
   });
 });
+
+
+//console.table(jsonObject['towns'][1]);
+//console.table(jsonObject['towns'][4]);
+//console.table(jsonObject['towns'][5]);

@@ -176,4 +176,36 @@ footer a {
 
 /*------ End of Social media icons-------------------------*/
 
+/*------ Estilo-------------------------*/
+
+main .cards h2, main .cards p{
+  background-color: rgb(226, 226, 148);
+  margin:0px;
+  text-align: center;
+}
+main .cards h2{
+ color:rgb(109, 109, 228); 
+ text-shadow: 0 0 1px #111;
+ padding-bottom: 0px;
+ margin-bottom: 0px;
+ padding-top: 1em;
+ padding-left:1em;
+ padding-right: 1em;
+
+} 
+main .cards p{
+  line-height: 2em;
+ padding-left:1em;
+ padding-right: 1em;
+
+ } 
+
+footer a {
+  text-decoration: none;
+}
+main .cards section {
+  margin-bottom:1em;
+  margin-top:1em;
+  }
+/*------ End Estilo -------------------------*/
 
