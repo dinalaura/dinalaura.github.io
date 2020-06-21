@@ -17,16 +17,19 @@
 
 /*------------Flex----------------------------------------*/
 
+
 main .cards  {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
+main img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 main .cards section {
-  max-width: 720px;
-display: block;
-margin-left: auto;
-margin-right: auto;
+margin:1em;
+
 }
 
 /*------------End of Flex----------------------------------------*/
