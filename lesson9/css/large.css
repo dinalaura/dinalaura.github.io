@@ -4,11 +4,6 @@
     max-width: 720px;
   }
 
-  #firstsection {
-    max-width: 720px;
-
-  }
-
   footer {
     max-width: 720px;
     margin-left: auto;
@@ -33,6 +28,13 @@ margin:1em;
 section:nth-child(2) > img, section:nth-child(1) > img{
   padding-top: 3em;
   }
+main article {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 2em 1em 1em 1em;
+  background-color: rgba(255, 127, 80, .80);
+  padding: 1em;
+}
 
 /*------------End of Flex----------------------------------------*/
 
