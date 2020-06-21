@@ -178,11 +178,19 @@ footer a {
 
 /*------ Estilo-------------------------*/
 
-main .cards h2, main .cards p{
-  background-color: rgb(226, 226, 148);
+main .cards h2, main .cards p, main .cards img{
+  background-color: rgb(238, 238, 176);
   margin:0px;
   text-align: center;
 }
+
+main img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 main .cards h2{
  color:rgb(109, 109, 228); 
  text-shadow: 0 0 1px #111;
@@ -206,6 +214,10 @@ footer a {
 main .cards section {
   margin-bottom:1em;
   margin-top:1em;
+  }
+
+  main .cards img{
+padding-top: 1em;
   }
 /*------ End Estilo -------------------------*/
 
