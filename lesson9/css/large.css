@@ -12,7 +12,10 @@
 
 /*------------Flex----------------------------------------*/
 
-
+main #article {
+  margin-top:3em;
+  max-width: 720px;
+}
 main .cards  {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

@@ -223,8 +223,16 @@ padding-top: 1em;
 
  main #article {
   margin-top:3em;
+  max-width: 350px;
+  padding-left:0px;
+
 }
 
+main #article img {
+  margin-top:3em;
+  margin-left:0px;
+  max-width: 347px;
+}
  #wireframes a {
   display: block;
   margin: 10px auto;
