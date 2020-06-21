@@ -214,10 +214,12 @@ footer a {
 main .cards section {
   margin-bottom:1em;
   margin-top:1em;
+  max-width: 600px;
   }
 
   main .cards img{
 padding-top: 1em;
   }
+
 /*------ End Estilo -------------------------*/
 

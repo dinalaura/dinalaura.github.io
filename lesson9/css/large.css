@@ -21,13 +21,12 @@ main .cards  {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-main img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 main .cards section {
-margin:1em;
+  max-width: 720px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 /*------------End of Flex----------------------------------------*/

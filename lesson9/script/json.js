@@ -26,7 +26,7 @@ fetch(requestURL)
     p2.innerHTML = `Year Founded: ${town.yearFounded}`;
     p3.innerHTML = `Population: ${town.currentPopulation}`;
     p4.innerHTML = `Annual Rain Fall: ${town.averageRainfall}`;
-    image.setAttribute('src', town.photo);
+    image.setAttribute('src', 'images/' + town.photo);
     image.setAttribute('alt', `${town.name}`);
 
 
