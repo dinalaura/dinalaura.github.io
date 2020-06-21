@@ -178,6 +178,13 @@
 		max-width: 700px;
 		}
 
+		main #article {
+			margin-top:3em;
+			max-width: 700px;
+			 margin: 70px auto 10px auto;
+			padding: 1em 1em 1em 1em;
+		  }
+
 	/*------------End of Flex----------------------------------------*/
 
 }
