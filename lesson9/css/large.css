@@ -34,8 +34,9 @@ section:nth-child(2) > img, section:nth-child(1) > img{
   padding-top: 3em;
   }
 
-}
-
+  div img {
+    max-width: 300px;
+  }
 /*------------End of Flex----------------------------------------*/
 
 
