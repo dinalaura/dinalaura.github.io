@@ -30,8 +30,8 @@ section:nth-child(2) > img, section:nth-child(1) > img{
   }
 main article {
   display: flex;
-  flex-direction: row-reverse;
-  margin: 2em 1em 1em 1em;
+  flex-direction: column-reverse;
+  margin: 70px auto 10px auto;
   background-color: rgba(255, 127, 80, .80);
   padding: 1em;
 }
