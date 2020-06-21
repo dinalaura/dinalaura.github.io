@@ -221,6 +221,9 @@ main .cards section {
 padding-top: 1em;
   }
 
+ main #article {
+  margin-top:3em;
+}
 
 /*------ End Estilo -------------------------*/
 
