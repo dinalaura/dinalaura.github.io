@@ -143,8 +143,6 @@
 
 		main .cards img {
 			grid-column: 2;
-			position: relative;
-			position: -170;
 		}
 
 		main .cards h2, main .cards p  {
@@ -197,7 +195,7 @@
 		  }
 
 		  img {
-			top: -130px;
+			position: -130px;
 			margin-top:1em;
 		   }
 		   
