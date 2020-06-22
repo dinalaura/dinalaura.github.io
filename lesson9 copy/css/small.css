@@ -13,6 +13,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 60em;
+  margin: 0 auto;
 }
 
 header img {
@@ -36,12 +38,16 @@ header img {
   margin-left: 20px;
   font-size: .9rem;
 }
+* {
+  box-sizing: border-box;
+}
 
 /*End of headings*************/
 
 
 /* Navigation ******************************************/
 nav {
+  max-width: 60em;
   margin: 0 auto;
 }
 
@@ -108,17 +114,6 @@ nav a:hover {
   padding: 15px;
   background-color: rgba(255, 127, 80, .80);
 }
-
-/* size-------------------------*/
-* {
-  box-sizing: border-box;
-}
-
-body {
-  max-width: 60em;
-  margin: 0 auto;
-}
-/*-----End of size-------------------------*/
 
 #hide,
 grid-container,

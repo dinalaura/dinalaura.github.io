@@ -10,7 +10,45 @@
     margin-right: auto;
   }
 
-/*------------Grid----------------------------------------*/
+  /*------------Grid----------------------------------------*/
+  main .cards {
+    background-color: #bbb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .cards img {
+    max-width: 300px;
+  }
+
+  .cards>div:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .cards>div:nth-child(1),
+  .cards>div:nth-child(3),
+  .cards>div:nth-child(5) {
+    background-color: rgb(236, 236, 191);
+    max-width: 300px;
+    margin: 0px;
+
+  }
+
+.cards>div:nth-child(2),
+.cards>div:nth-child(4),
+.cards>div:nth-child(6) {
+  background-color: #bbb;
+  padding: 0px;
+  margin: 0px;
+}
+
+.cards>div:nth-child(2) {
+  grid-column: 2;
+  grid-row: 2;
+}
 
 /*------------End of Grid----------------------------------------*/
 
