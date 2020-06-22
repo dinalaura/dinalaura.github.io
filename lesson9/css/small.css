@@ -178,71 +178,20 @@ footer a {
 
 /*------ Estilo-------------------------*/
 
-main .cards h2, main .cards p, main .cards img{
-  background-color: rgb(238, 238, 176);
-  margin:0px;
-  text-align: center;
-}
-
-main img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-main .cards h2{
- color:rgb(109, 109, 228); 
- text-shadow: 0 0 1px #111;
- padding-bottom: 0px;
- margin-bottom: 0px;
- padding-top: 1em;
- padding-left:1em;
- padding-right: 1em;
-
-} 
-main .cards p{
-  line-height: 2em;
- padding-left:1em;
- padding-right: 1em;
-
- } 
-
-footer a {
-  text-decoration: none;
-}
-main .cards section {
-  margin-bottom:1em;
-  margin-top:1em;
-  max-width: 350px;
-  }
-
-  main .cards img{
-padding-top: 1em;
-  }
-
- main #article {
-  margin-top:3em;
-  max-width: 350px;
-  padding-left:0px;
-}
-
-main #article img {
-  margin-top:3em;
-  margin-left:0px;
-  max-width: 347px;
-}
- #wireframes a {
+#wireframes {
+  max-width: 520px;
   display: block;
   margin: 10px auto;
   border: 2px dashed purple;
   padding: 15px;
   background-color: rgba(255, 127, 80, .80);
-  max-width: 720px;
-  text-decoration: none;
   text-align: center;
+}
+#wireframes a{
+  text-decoration: none;
   color:black;
 }
+
 
 /*------ End Estilo -------------------------*/
 
