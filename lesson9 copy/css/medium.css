@@ -1,15 +1,5 @@
 @media only screen and (min-width: 30em) {
 
-	.box {
-		max-width: 520px;
-		;
-	}
-
-	#firstsection {
-		max-width: 520px;
-		margin-bottom: auto;
-
-	}
 
 	/*forecast *************************************************************/
 
@@ -129,7 +119,9 @@
 
 
 	/*------------Grid----------------------------------------*/
-
+	#article {
+		text-align:left;
+		}
 	main .cards {
 		background-color: #bbb;
 		display: grid;

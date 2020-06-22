@@ -129,7 +129,9 @@
 
 
 	/*------------Grid----------------------------------------*/
-
+	#article {
+		text-align:left;
+		}
 	main .cards {
 		background-color: #bbb;
 		display: grid;
