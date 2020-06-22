@@ -11,7 +11,9 @@ fetch(requestURL)
   towns.forEach(town => {
     if (town.name == "Fish Haven" || town.name == "Preston" || town.name == "Soda Springs"){
 
-    let card = document.createElement('section');
+    let card = document.createElement('div');
+    let div2 = document.createElement('div');
+
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
@@ -35,10 +37,12 @@ fetch(requestURL)
     card.appendChild(p2);
     card.appendChild(p3);
     card.appendChild(p4);
-    card.appendChild(image);
+    div2.appendChild(image);
 
 
     document.querySelector('div.cards').appendChild(card);
+    document.querySelector('div.cards').appendChild(div2);
+
     }
     
   });
