@@ -129,10 +129,24 @@
 
 
 	/*------------Grid----------------------------------------*/
-	@media only screen and (min-width: 30em) and (max-width: 49em) {
+	
+		main .cards {
+			background-color: #bbb;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			text-align: center;
+			margin:.5em 2em .5em 2em;
+			padding:1em;
+		  }
 
-
-		
+		  main .cards div{
+			background-color: rgb(183, 183, 236);
+			margin-top:.5em;
+			margin-bottom:.5em;
+			padding:1em;
+		  }
+		 
+	
 
 	/*------------End of Grid----------------------------------------*/
 
