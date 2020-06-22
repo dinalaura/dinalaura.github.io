@@ -177,6 +177,26 @@ footer a {
 /*------ End of Social media icons-------------------------*/
 
 /*------ Estilo-------------------------*/
+#article img{
+  max-width: 335px;
+  margin-left: 0px;
+}
+#article {
+text-align:center;
+}
+
+main .cards {
+  background-color: rgb(183, 183, 236);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+main .cards div {
+  background-color: rgb(183, 183, 236);
+  text-align: center;
+
+
+}
 
 #wireframes {
   max-width: 520px;
