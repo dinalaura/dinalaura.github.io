@@ -15,7 +15,7 @@
     background-color: #bbb;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1000px;
+    max-width: 960px;
     margin: auto;
   }
 
@@ -33,7 +33,7 @@
   .cards>div:nth-child(5) {
     background-color: rgb(236, 236, 191);
     max-width: 300px;
-    margin: 0px;
+    margin: 0em 2em 0em 0em;
 
   }
 
@@ -41,8 +41,8 @@
 .cards>div:nth-child(4),
 .cards>div:nth-child(6) {
   background-color: #bbb;
-  padding: 0px;
-  margin: 0px;
+  padding: 0em;
+  margin: 0em 2em 0em 0em;
 }
 
 .cards>div:nth-child(2) {
