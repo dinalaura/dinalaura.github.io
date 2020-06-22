@@ -1,0 +1,19 @@
+@media only screen and (min-width: 50em) {
+
+  .box {
+    max-width: 720px;
+  }
+
+  footer {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*------------Flex----------------------------------------*/
+
+
+/*------------End of Flex----------------------------------------*/
+
+
+}
