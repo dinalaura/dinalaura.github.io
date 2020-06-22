@@ -44,7 +44,15 @@
 	}
 
 	/*End of navigation***************/
+/*Bottom-------------------*/
+#address, .icon-container{
+	float:right;
+}
 
+#address {
+	text-align: left;
+}
+/*End of bottom-------------------*/
 /*--------------Form------------------*/
 form{
 	max-width: 30em;

@@ -1,13 +1,6 @@
 @media only screen and (min-width: 30em) {
 
 
-
-
-	#address {
-		text-align: left;
-	}
-
-
 	header,
 	nav {
 		max-width: 60em;
@@ -45,7 +38,18 @@
 		display: none;
 	}
 
-	/*End of navigation***************/
+	/*End of navigation***************
+	
+	
+	/*Bottom-------------------*/
+	#address, .icon-container{
+		float:right;
+	}
+	
+	#address {
+		text-align: left;
+	}
+	/*End of bottom-------------------*/
 
 	/******** images Grid***************************/
 	.container {
@@ -69,6 +73,5 @@
 	}
 
 	/******** end of images Grid***************************/
-
 
 }
