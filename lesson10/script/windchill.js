@@ -1,10 +1,12 @@
+/*-------------------------Windchill------------------------------------------*/
+
 function output() {
     let tempF = parseFloat(document.getElementById("high").textContent);
     let speed = parseFloat(document.getElementById("speed").textContent);
 
     let output = windChill(tempF, speed);
 
-    document.getElementById("windchill").textContent = output.toFixed(2);
+    document.getElementById("windchill").textContent = output;
 }
 
 function windChill(tempF, speed) {
@@ -13,7 +15,7 @@ function windChill(tempF, speed) {
         let s = speed;
         let f = 35.74 + (0.6215 * t) - (35.75 * Math.pow(s, 0.16)) + (0.4275 * t * Math.pow(s, 0.16));
 
-        return f;
+        return f.toFixed(2);
 
     }
     else {
@@ -24,4 +26,3 @@ function windChill(tempF, speed) {
 }
 
 output()
-
