@@ -14,4 +14,89 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+
+
+  /*------------Index Grid----------------------------------------*/
+  main .cards {
+    background-color: #bbb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 960px;
+    margin: auto;
+  }
+
+  .cards img {
+    max-width: 300px;
+  }
+
+  .cards>div:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .cards>div:nth-child(1),
+  .cards>div:nth-child(3),
+  .cards>div:nth-child(5) {
+    background-color: rgb(236, 236, 191);
+    max-width: 300px;
+    margin: 0em 2em 0em 0em;
+
+  }
+
+  .cards>div:nth-child(2),
+  .cards>div:nth-child(4),
+  .cards>div:nth-child(6) {
+    background-color: #bbb;
+    padding: 0em;
+    margin: 0em 2em 0em 0em;
+  }
+
+  .cards>div:nth-child(2) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  /*------------Index End of Grid----------------------------------------*/
+
+  /*-------------------Gallery----------------------------------------*/
+
+  /*---------- images Grid---------*/
+  .container {
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container img {
+    width: 250px;
+  }
+
+  figure {
+    margin: 1em 1em 1em 1em;
+  }
+
+  /*----- end of images Grid-------------*/
+
+  /*-------- hover effect ----------*/
+  .norm:hover {
+    box-shadow: 0 0 50px #333;
+    /*-------end of hover effect------*/
+
+  }
+
+  figcaption {
+    display: inline;
+  }
+
+  /*-------------------End of Gallery style------------------------------*/
+
+
+  /*--------------Storm Center Form------------------*/
+  form label.sbs {
+    padding: 1rem 0;
+
+  }
+
+  /*-------------Storm Center End of Form-----------------------*/
+
 }

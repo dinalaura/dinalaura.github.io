@@ -1,4 +1,4 @@
-/*headings********************/
+/*----------------headings----------------------*/
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #bbb;
@@ -37,10 +37,10 @@ header img {
   font-size: .9rem;
 }
 
-/*End of headings*************/
+/*-------------End of headings-----------------------*/
 
 
-/* Navigation ******************************************/
+/*---------- Navigation-------------------------------*/
 nav {
   margin: 0 auto;
 }
@@ -79,7 +79,7 @@ nav ul {
 
 
 
-/************** buttons */
+/*------- buttons -------------*/
 .btn {
   border: none;
   outline: none;
@@ -87,21 +87,21 @@ nav ul {
   cursor: pointer;
 }
 
-/* Active class***********/
+/*------- Active class------------*/
 .active {
   background-color: rgb(228, 204, 174);
   color: black;
 }
 
 
-/************ mouse-over ******/
+/*-------------- mouse-over-----------*/
 nav a:hover {
   color: white;
   background-color: black;
 
 }
 
-/************* End of Navigation *********************************/
+/*------------ End of Navigation ------------*/
 
 
 h2 {
@@ -130,7 +130,9 @@ h2 {
   width: 100%;
 }
 
-/* summary*********************/
+/*--------- Towns---------------------*/
+
+/*--------- summary---------------------*/
 .details {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -176,7 +178,10 @@ body {
   margin: 0;
 }
 
-/***End of summary********************************/
+/*--------End of summary--------------------*/
+
+/*---------End of Towns---------------------*/
+
 #overlay {
   position: absolute;
   top: 5px;
@@ -232,7 +237,7 @@ footer a {
   color: white;
 }
 
-/* Banner *****************************************/
+/*------------ Banner --------------------*/
 #banner {
   display: none;
   text-align: center;
@@ -243,10 +248,10 @@ footer a {
   font-weight: bold;
 }
 
-/* End of Banner *****************************************/
+/*--------- End of Banner ------------------*/
 
 
-/****Social media icons***************************/
+/*---------Social media icons-----------------*/
 
 .icon-container {
   display: grid;
@@ -260,4 +265,199 @@ footer a {
 }
 
 
-/**** End of Social media icons***************************/
+/*-------- End of Social media icons-----------------*/
+
+
+/*------Index  Estilo-------------------------*/
+#article img {
+  max-width: 335px;
+  margin-left: 0px;
+}
+
+#article {
+  text-align: center;
+}
+
+main .cards {
+  background-color: rgb(183, 183, 236);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+main .cards div {
+  background-color: rgb(183, 183, 236);
+  text-align: center;
+
+
+}
+
+#wireframes {
+  max-width: 520px;
+  display: block;
+  margin: 10px auto;
+  border: 2px dashed purple;
+  padding: 15px;
+  background-color: rgba(255, 127, 80, .80);
+  text-align: center;
+}
+
+#wireframes a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/*------Index  End Estilo -------------------------*/
+
+/*------Gallery images Grid------------------------*/
+
+
+/*-------images Grid----------------*/
+.container {
+  display: grid;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  justify-content: center;
+}
+
+figure {
+  margin: 0px;
+}
+
+
+
+/*------ end of images Grid-----------*/
+h2 {
+  font-size: 1em;
+}
+
+/*---------Blur--------*/
+
+
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+/*--------- End of blur--------------*/
+
+/*----------End of Gallery style------------------------*/
+
+
+/*--------------Storm Center Form-----------------------*/
+
+
+main h2 {
+  text-align: center;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 2px dashed purple;
+  border-radius: 10px;
+  padding: .5rem 2%
+}
+
+form legend {
+  color: black;
+  font-weight: bold;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: black;
+  font-size: .8rem;
+}
+
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: black;
+}
+
+form input.submitBnt {
+  border: none;
+  background-color: #9c2c13;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+}
+
+form label.sb {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: rgb(64, 120, 153);
+  box-shadow: 0 0 5px #375b61;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+}
+
+form input.submitBtn:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 5px black;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+textarea {
+  width: 25em;
+  height: 10em;
+}
+
+.page {
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  border: 2px dashed purple;
+  padding: 15px;
+  max-width: 20em;
+  margin: auto auto 7em auto;
+}
+
+/*----------------Storm Center End of Form-----------------------*/
