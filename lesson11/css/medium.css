@@ -67,7 +67,7 @@
 
 	/*------End of forecast ------------------*/
 
-#article h3{
+#article h3 {
 	text-align: left;
 }
 	#article {
@@ -92,7 +92,7 @@
 		justify-content: left;
 	}
 
-	#address {
+	#address, #address h3 {
 		text-align: left;
 	}
 
