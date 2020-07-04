@@ -143,6 +143,10 @@ h2 {
   line-height: 1.15;
   padding: 1em;
   text-align: center;
+  box-shadow: 0 0 40px #444;
+  border: 2px solid black;
+  ;
+
 }
 /*--------- End of Events---------------------*/
 
