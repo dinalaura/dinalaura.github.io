@@ -1,10 +1,5 @@
 @media only screen and (min-width: 30em) {
 
-	.box {
-		max-width: 520px;
-		;
-	}
-
 	#firstsection {
 		max-width: 520px;
 		margin-bottom: auto;
@@ -67,12 +62,15 @@
 
 	/*------End of forecast ------------------*/
 
-#article h3, #article h2, #address h2 {
-	text-align: left;
-}
+	#article h3,
+	#article h2,
+	#address h2 {
+		text-align: left;
+	}
+
 	#article {
 		display: block;
-		margin: 10px auto 10px auto;
+		margin: 10px;
 	}
 
 	#article img {
@@ -90,9 +88,11 @@
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: left;
+		max-width: 520px;
 	}
 
-	#address, #address h3 {
+	#address,
+	#address h3 {
 		text-align: left;
 	}
 
@@ -137,8 +137,22 @@
 
 
 	/*------------Index Grid----------------------------------------*/
-	#article {
+
+	#indexarticle {
+		margin: 10px;
 		text-align: left;
+
+	}
+
+	#indexarticle h2 {
+		text-align: left;
+	}
+
+	#indexarticle img {
+		float: right;
+		border: 1px solid #bbb;
+		padding: .25rem;
+		margin: .5rem .25rem .5rem 1.25rem;
 	}
 
 	main .cards {
@@ -224,6 +238,8 @@
 
 	/*-----------------Storm Center End of Form-------------------*/
 
-
-
+footer{
+	max-width: 520px;
+	margin-right: auto;
+	margin-left: auto;
 }

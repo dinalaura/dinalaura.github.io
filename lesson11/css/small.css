@@ -193,16 +193,15 @@ body {
 
 }
 
+
 #article {
   display: flex;
   flex-direction: column-reverse;
-  margin: 70px auto 10px auto;
-
+  margin: 80px auto 10px auto;
 }
 
 #article img {
   max-width: 100%;
-
 }
 
 #article a {
@@ -269,12 +268,21 @@ footer a {
 
 
 /*------Index  Estilo-------------------------*/
-#article img {
+
+#indexarticle {
+  margin: 10px auto 10px auto;
+    display: block;
+    border: 2px dashed purple;
+    padding: 15px;
+    background-color: rgba(255, 127, 80, .80);
+}
+
+#indexarticle img {
   max-width: 335px;
   margin-left: 0px;
 }
 
-#article {
+#indexarticle {
   text-align: center;
 }
 

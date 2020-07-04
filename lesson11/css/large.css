@@ -1,23 +1,14 @@
 @media only screen and (min-width: 50em) {
 
-  .box {
-    max-width: 720px;
-  }
-
-  #firstsection {
-    max-width: 720px;
-
-  }
-
-  footer {
+  #bottombox, #firstsection, footer,  #indexarticle, #article  {
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
   }
 
 
-
   /*------------Index Grid----------------------------------------*/
+
   main .cards {
     background-color: #bbb;
     display: grid;
@@ -98,5 +89,7 @@
   }
 
   /*-------------Storm Center End of Form-----------------------*/
+
+
 
 }
