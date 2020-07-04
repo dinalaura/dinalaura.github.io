@@ -96,6 +96,11 @@
 		max-width: 520px;
 	}
 
+	#map{
+	
+		margin: 0px;
+		}
+
 	#address,
 	#address h3 {
 		text-align: left;

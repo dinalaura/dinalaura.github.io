@@ -231,14 +231,16 @@ grid-item {
   display: none;
 }
 
-#map img {
-  width: 100%;
-}
-
 #address {
   padding: 1em;
   margin: 1em;
   text-align: center;
+}
+
+#map{
+max-width: 283px;
+margin-left: auto;
+margin-right: auto;
 }
 
 footer {
