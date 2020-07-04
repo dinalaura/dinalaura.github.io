@@ -137,16 +137,13 @@ h2 {
 .events{
   background-color: rgb(236, 236, 191);
   max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 120px auto 0px auto;
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.15;
   padding: 1em;
   text-align: center;
   box-shadow: 0 0 40px #444;
   border: 2px solid black;
-  ;
-
 }
 /*--------- End of Events---------------------*/
 
@@ -216,7 +213,7 @@ body {
 #article {
   display: flex;
   flex-direction: column-reverse;
-  margin: 80px auto 10px auto;
+  margin: 30px auto 10px auto;
 }
 
 #article img {

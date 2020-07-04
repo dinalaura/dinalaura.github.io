@@ -8,6 +8,12 @@
 
 	/*-----Towns------------------*/
 
+/*--------- Events---------------------*/
+
+.events{
+	margin: auto auto 2em auto;
+  }
+  /*--------- End of Events---------------------*/
 	/*-------forecast --------------*/
 
 	#hide,
@@ -32,7 +38,6 @@
 		max-width: 520px;
 		margin-left: auto;
 		margin-right: auto;
-
 	}
 
 
