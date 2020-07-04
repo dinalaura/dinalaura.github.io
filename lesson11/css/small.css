@@ -132,6 +132,21 @@ h2 {
 
 /*--------- Towns---------------------*/
 
+/*--------- Events---------------------*/
+
+.events{
+  background-color: rgb(236, 236, 191);
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.15;
+  padding: 1em;
+  text-align: center;
+}
+/*--------- End of Events---------------------*/
+
+
 /*--------- summary---------------------*/
 .details {
   display: grid;
