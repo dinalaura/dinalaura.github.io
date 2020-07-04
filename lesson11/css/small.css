@@ -458,7 +458,7 @@ textarea {
 
 /*---- thanks page, gallery, storm center Bottom box------------*/
 
-#address h3 {
+#address h3, #address h2 {
   font-size: 1em;
 }
 /*----------------End Bottom box-----------------------*/
