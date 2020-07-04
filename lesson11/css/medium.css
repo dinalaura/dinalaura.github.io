@@ -67,7 +67,9 @@
 
 	/*------End of forecast ------------------*/
 
-
+#article h3{
+	text-align: left;
+}
 	#article {
 		display: block;
 		margin: 10px auto 10px auto;
