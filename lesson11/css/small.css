@@ -463,6 +463,6 @@ textarea {
 /*----------------Storm Center End of Form-----------------------*/
 
 
-#address h3 {
+#address h3, #address h2 {
   font-size: 1em;
 }
