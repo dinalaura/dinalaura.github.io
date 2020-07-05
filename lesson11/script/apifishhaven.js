@@ -1,5 +1,5 @@
 /*-----------------------Weather Summary------------------------------------------*/
-const weatherSummary = "http://api.openweathermap.org/data/2.5/weather?zip=83287,us&appid=195414e543ad58fb7aea951c77ee178a&units=imperial";
+const weatherSummary = "https://api.openweathermap.org/data/2.5/weather?zip=83287,us&appid=195414e543ad58fb7aea951c77ee178a&units=imperial";
 fetch(weatherSummary)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -16,13 +16,12 @@ fetch(weatherSummary)
         high.textContent = `${jsObject.main.temp_max} °F`;
         humidity.textContent = `${jsObject.main.humidity}%`;
         speed.textContent = `${jsObject.wind.speed} mph`;
-
     });
 
 
     /*-----------------------Forecast------------------------------------------*/
 
-const forecast = "http://api.openweathermap.org/data/2.5/weather?zip=83287,us&appid=195414e543ad58fb7aea951c77ee178a&units=imperial";
+const forecast = "https://api.openweathermap.org/data/2.5/forecast?zip=83287,us&appid=195414e543ad58fb7aea951c77ee178a&units=imperial";
 
 fetch(forecast)
     .then((response) => response.json())
