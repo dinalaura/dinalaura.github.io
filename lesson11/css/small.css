@@ -194,6 +194,11 @@ body {
   margin: 0;
 }
 
+#article a {
+  text-decoration: none;
+
+}
+
 /*--------End of summary--------------------*/
 
 /*---------End of Towns---------------------*/
