@@ -93,7 +93,7 @@
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: left;
-		max-width: 520px;
+		max-width: 550px;
 	}
 
 	#map{
@@ -249,7 +249,7 @@
 	/*-----------------Storm Center End of Form-------------------*/
 
 footer{
-	max-width: 520px;
+	max-width: 550px;
 	margin-right: auto;
 	margin-left: auto;
 }
