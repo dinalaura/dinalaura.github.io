@@ -1,6 +1,6 @@
 @media only screen and (min-width: 50em) {
 
-  #bottombox, #firstsection, footer,  #indexarticle, #article  {
+   #firstsection, #indexarticle, #article  {
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
