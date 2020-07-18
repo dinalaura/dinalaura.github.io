@@ -17,7 +17,7 @@ console.table(jsonObject);
 
 
 
-    h2.textContent = `${rentals.rentaltype} ${rentals.maxpersons}`;
+    h0.textContent = `${rentals.rentaltype} ${rentals.maxpersons}`;
     p1.innerHTML = `${rentals.birthdate}`;
     p2.innerHTML = `${rentals.birthplace}`;
     image.setAttribute('src', rentals.imageurl);
