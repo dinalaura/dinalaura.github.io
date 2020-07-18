@@ -1,4 +1,4 @@
-const requestURL = '/Users/dinalaura/Documents/BYU-I/WDD 230/dinalaura.github.io/finalproject/data/rentals.json';
+const requestURL = 'https://dinalaura.github.io/finalproject/data/rentals.json';
 
 fetch(requestURL)
 .then(function(response) {
