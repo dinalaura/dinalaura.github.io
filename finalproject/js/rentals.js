@@ -10,7 +10,7 @@ console.table(jsonObject);
 
   rentals.forEach(rentals => {
     let card = document.createElement('section');
-    let h2 = document.createElement('h2');
+    let p0 = document.createElement('p');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let image = document.createElement('img');
@@ -24,7 +24,7 @@ console.table(jsonObject);
     image.setAttribute('alt', `${rentals.rentaltype}`);
 
 
-    card.appendChild(h2);
+    card.appendChild(p0);
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(image);
