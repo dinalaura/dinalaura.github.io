@@ -18,8 +18,8 @@ console.table(jsonObject);
 
 
     p0.textContent = `${rentals.rentaltype} ${rentals.maxpersons}`;
-    p1.innerHTML = `${rentals.birthdate}`;
-    p2.innerHTML = `${rentals.birthplace}`;
+    p1.innerHTML = `${rentals.rentaltype}`;
+    p2.innerHTML = `${rentals.rentaltype}`;
     image.setAttribute('src', rentals.imageurl);
     image.setAttribute('alt', `${rentals.rentaltype}`);
 
