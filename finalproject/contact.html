@@ -42,6 +42,22 @@
     </nav>
 
     <main>
+
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label class="top">Full Name* <input type="text" name="fullName" required pattern="[A-z\s]{5,}"
+                        placeholder="Full Name"></label>
+                        <br>
+                <label class="top">eMail:
+                    <input type="email" name="email" required placeholder="user@email.org"></label>
+                    <br>
+                <label class="top">Comments<br><textarea name="textArea"></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" name="button" value="Contact Us" class="submitBtn">
+        </form>
         <section>
             <div>
                 <h4>~Scoots</h4>
