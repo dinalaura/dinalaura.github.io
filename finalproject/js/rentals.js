@@ -8,7 +8,7 @@ fetch(requestURL)
 console.table(jsonObject);
   const rentals = jsonObject['rentals'];
 
-  rentals.forEach(prophet => {
+  rentals.forEach(rentals => {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p');
@@ -17,11 +17,11 @@ console.table(jsonObject);
 
 
 
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
-    p1.innerHTML = `Date of Birth: ${prophet.birthdate}`;
-    p2.innerHTML = `Place of Birth: ${prophet.birthplace}`;
-    image.setAttribute('src', prophet.imageurl);
-    image.setAttribute('alt', `${prophet.name} ${prophet.lastname} - ${prophet.order}`);
+    h2.textContent = `${rentals.rentaltype} ${rentals.maxpersons}`;
+    p1.innerHTML = `${rentals.birthdate}`;
+    p2.innerHTML = `${rentals.birthplace}`;
+    image.setAttribute('src', rentals.imageurl);
+    image.setAttribute('alt', `${rentals.rentaltype}`);
 
 
     card.appendChild(h2);
