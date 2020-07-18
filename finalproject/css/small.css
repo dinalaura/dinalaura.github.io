@@ -1,0 +1,30 @@
+footer {
+    background-color: #3d8590;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.box { 
+    background-color: #3d8590;
+    color: white;
+    max-width: 16em;
+    padding: 1em;
+    text-align: center;
+  
+}
+button {
+    background-color: #3d8590;
+    color: white;
+    border: 1px solid white;
+    padding: .8em;
+}

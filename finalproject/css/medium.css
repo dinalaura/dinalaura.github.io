@@ -20,23 +20,20 @@ nav li:first-child {
   display: none;
 }
 
-ul {
+nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
   }
   
-  li {
+  nav li {
     float: left;
-    border-right:1px solid #bbb;
   }
   
-  li:last-child {
+  nav li:last-child {
     border-right: none;
   }
   
-  li a {
+  nav li a {
     display: block;
     color: black;
     text-align: center;
@@ -44,7 +41,7 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  nav li a:hover:not(.active) {
     background-color: #56EEF4;
   }
   
@@ -52,7 +49,9 @@ ul {
     background-color: #bdcfc4;
   }
 main, header {
-margin-top: 46px;
-margin-bottom: 46px;
+margin-top: 40px;
 }
+
+
+
 }

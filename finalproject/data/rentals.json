@@ -11,7 +11,7 @@
           { "halfday": 25 },
           { "fullday": 35 }
         ],
-        "imageurl": "https://cdp.azureedge.net/products/USA/HO/2017/SCOOTER/SCOOTER/METROPOLITAN/50/RED/2000000009.jpg"
+        "photo": "moto1.jpg"
       },
       {
         "rentaltype": "Honda Dio Scooter",
@@ -24,7 +24,7 @@
           { "halfday": 35 },
           { "fullday": 45 }
         ],
-        "imageurl": "https://global.honda/content/dam/site/global/newsroom/cq_img/news/2002/2020320/01.jpg"
+        "photo": "moto2.jpg"
       },
       {
         "rentaltype": "Honda PCX150 Scooter",
@@ -37,7 +37,7 @@
           { "halfday": 45 },
           { "fullday": 55 }
         ],
-        "imageurl": "https://s3.amazonaws.com/ptx-blogs/wp-content/uploads/sites/8/2019/01/29232631/Honda-PCX150-2.jpg"
+        "photo": "moto3.jpg"
       },
       {
         "rentaltype": "Honda Pioneer ATV",
@@ -50,7 +50,7 @@
           { "halfday": 60 },
           { "fullday": 80 }
         ],
-        "imageurl": "https://i.pinimg.com/originals/a6/37/4f/a6374f64173cb9d8445b82b5a107b0d0.jpg"
+        "photo": "jeep1.jpg"
       },
       {
         "rentaltype": "Jeep Wrangler - 4 door with a/c",
@@ -63,7 +63,7 @@
           { "halfday": 85 },
           { "fullday": 125 }
         ],
-        "imageurl": "https://nantucketislandrentacar.com/wp-content/uploads/2014/07/nantucket-jeep-rentals.jpg"
+        "photo": "jeep2.jpg"
       },
       {
         "rentaltype": "Jeep Wrangler - 2 door",
@@ -76,7 +76,7 @@
           { "halfday": 70 },
           { "fullday": 90 }
         ],
-        "imageurl": "https://i.pinimg.com/originals/21/39/4d/21394d84af2e2dd869a04b84d911ddb6.jpg"
+        "photo": "jeep3.jpg"
       }
     ]
   }

@@ -26,7 +26,7 @@ fetch(requestURL)
     p3.innerHTML = `${rentals.reservation[1]['fullday']}`;
     p4.innerHTML = `${rentals.walkin[0]['halfday']}`;
     p5.innerHTML = `${rentals.walkin[1]['fullday']}`;
-    image.setAttribute('src', rentals.imageurl);
+    image.setAttribute('src', 'images/' + rentals.photo);
     image.setAttribute('alt', `${rentals.rentaltype}`);
 
 
