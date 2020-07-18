@@ -1,0 +1,83 @@
+{
+    "rentals": [
+      {
+        "rentaltype": "Honda Metro Scooter",
+        "maxpersons": 1,
+        "reservation": [
+          { "halfday": 20 },
+          { "fullday": 30 }
+        ],
+        "walkin": [
+          { "halfday": 25 },
+          { "fullday": 35 }
+        ],
+        "imageurl": "https://cdp.azureedge.net/products/USA/HO/2017/SCOOTER/SCOOTER/METROPOLITAN/50/RED/2000000009.jpg"
+      },
+      {
+        "rentaltype": "Honda Dio Scooter",
+        "maxpersons": 2,
+        "reservation": [
+          { "halfday": 30 },
+          { "fullday": 40 }
+        ],
+        "walkin": [
+          { "halfday": 35 },
+          { "fullday": 45 }
+        ],
+        "imageurl": "https://global.honda/content/dam/site/global/newsroom/cq_img/news/2002/2020320/01.jpg"
+      },
+      {
+        "rentaltype": "Honda PCX150 Scooter",
+        "maxpersons": 2,
+        "reservation": [
+          { "halfday": 40 },
+          { "fullday": 50 }
+        ],
+        "walkin": [
+          { "halfday": 45 },
+          { "fullday": 55 }
+        ],
+        "imageurl": "https://s3.amazonaws.com/ptx-blogs/wp-content/uploads/sites/8/2019/01/29232631/Honda-PCX150-2.jpg"
+      },
+      {
+        "rentaltype": "Honda Pioneer ATV",
+        "maxpersons": 4,
+        "reservation": [
+          { "halfday": 50 },
+          { "fullday": 70 }
+        ],
+        "walkin": [
+          { "halfday": 60 },
+          { "fullday": 80 }
+        ],
+        "imageurl": "https://i.pinimg.com/originals/a6/37/4f/a6374f64173cb9d8445b82b5a107b0d0.jpg"
+      },
+      {
+        "narentaltype": "Jeep Wrangler - 4 door with a/c",
+        "maxpersons": 5,
+        "reservation": [
+          { "halfday": 70 },
+          { "fullday": 100 }
+        ],
+        "walkin": [
+          { "halfday": 85 },
+          { "fullday": 125 }
+        ],
+        "imageurl": "https://nantucketislandrentacar.com/wp-content/uploads/2014/07/nantucket-jeep-rentals.jpg"
+      },
+      {
+        "rentaltype": "Jeep Wrangler - 2 door",
+        "maxpersons": 4,
+        "reservation": [
+          { "halfday": 60 },
+          { "fullday": 85 }
+        ],
+        "walkin": [
+          { "halfday": 70 },
+          { "fullday": 90 }
+        ],
+        "imageurl": "https://i.pinimg.com/originals/21/39/4d/21394d84af2e2dd869a04b84d911ddb6.jpg"
+      }
+    ]
+  }
+  
