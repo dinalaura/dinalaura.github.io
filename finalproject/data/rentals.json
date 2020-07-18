@@ -53,7 +53,7 @@
         "imageurl": "https://i.pinimg.com/originals/a6/37/4f/a6374f64173cb9d8445b82b5a107b0d0.jpg"
       },
       {
-        "narentaltype": "Jeep Wrangler - 4 door with a/c",
+        "rentaltype": "Jeep Wrangler - 4 door with a/c",
         "maxpersons": 5,
         "reservation": [
           { "halfday": 70 },

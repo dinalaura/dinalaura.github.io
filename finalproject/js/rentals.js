@@ -5,7 +5,7 @@ fetch(requestURL)
   return response.json();
 })
 .then(function(jsonObject){
-console.table(jsonObject);
+//console.table(jsonObject);
   const rentals = jsonObject['rentals'];
 
   rentals.forEach(rentals => {
@@ -13,13 +13,19 @@ console.table(jsonObject);
     let p0 = document.createElement('p');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
+    let p3 = document.createElement('p');
+    let p4 = document.createElement('p');
+    let p5 = document.createElement('p');
     let image = document.createElement('img');
 
 
 
-    p0.textContent = `${rentals.rentaltype} ${rentals.maxpersons}`;
-    p1.innerHTML = `${rentals.rentaltype}`;
-    p2.innerHTML = `${rentals.rentaltype}`;
+    p0.innerHTML = `${rentals.rentaltype}`;
+    p1.innerHTML = `${rentals.maxpersons}`;
+    p2.innerHTML = `${rentals.reservation[0]['halfday']}`;
+    p3.innerHTML = `${rentals.reservation[1]['fullday']}`;
+    p4.innerHTML = `${rentals.walkin[0]['halfday']}`;
+    p5.innerHTML = `${rentals.walkin[1]['fullday']}`;
     image.setAttribute('src', rentals.imageurl);
     image.setAttribute('alt', `${rentals.rentaltype}`);
 
@@ -27,10 +33,13 @@ console.table(jsonObject);
     card.appendChild(p0);
     card.appendChild(p1);
     card.appendChild(p2);
+    card.appendChild(p3);
+    card.appendChild(p4);
+    card.appendChild(p5);
     card.appendChild(image);
 
 
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('div.rentals').appendChild(card);
     
   });
 });
