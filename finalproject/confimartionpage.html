@@ -17,7 +17,9 @@
 <body>
     <header>
         <picture>
-            <img src="images/cozumel.jpg" alt="Cozumel Isle">
+            <source srcset="images/cozumel.jpg" media="(min-width: 800px)" alt="Cozumel Isle">
+            <source srcset="images/cozumelm.jpg" media="(min-width:480px) and (max-width: 799px)" alt="Cozumel Isle">
+            <img src="images/cozumels.jpg" alt="Cozumel Isle">
         </picture>
         <section>
             <h1>~Scoots</h1>
@@ -42,6 +44,8 @@
     </nav>
 
     <main>
+        <div class="container">
+
         <section>
             <div>
                 <h4>~Scoots</h4>
@@ -64,6 +68,7 @@
                     <input type="submit" name="button" value="Pay" class="submitBtn">
                 </form>
         </section>
+        </div>
     </main>
 
     <footer>

@@ -11,4 +11,3 @@ document.getElementById("date").textContent = string;
   button.addEventListener('click', () => { mainnav.classList.toggle('responsive') }, false);
   
   /*End of reponsive*/
-  

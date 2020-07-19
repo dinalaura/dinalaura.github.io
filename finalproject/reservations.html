@@ -15,11 +15,11 @@
 </head>
 
 <body>
-    <header>
-        <picture>
-            <img src="images/cozumel.jpg" alt="Cozumel Isle">
-        </picture>
-
+    <picture>
+        <source srcset="images/cozumel.jpg" media="(min-width: 800px)" alt="Cozumel Isle">
+        <source srcset="images/cozumelm.jpg" media="(min-width:480px) and (max-width: 799px)" alt="Cozumel Isle">
+        <img src="images/cozumels.jpg" alt="Cozumel Isle">
+    </picture>
         <section>
             <h1>~Scoots</h1>
         </section>
@@ -43,6 +43,8 @@
     </nav>
 
     <main>
+        <div class="container">
+
         <form method="get" action="confimartionpage.html">
             <fieldset>
                 <legend>Reservation</legend>
@@ -102,6 +104,7 @@
 
             <input type="submit" name="button" value="Reserve" class="submitBtn">
         </form>
+        </div>
     </main>
 
     <footer>

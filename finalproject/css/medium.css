@@ -1,12 +1,6 @@
 @media only screen and (min-width: 30em) {
 
-nav {
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    background-color: white;
-}
-
+  
 nav a {
     float: left;
     display: block;
@@ -16,10 +10,6 @@ nav a {
     text-decoration: none;
 }
 
-nav li:first-child {
-  display: none;
-}
-
 nav ul {
     list-style-type: none;
     overflow: hidden;
@@ -27,10 +17,6 @@ nav ul {
   
   nav li {
     float: left;
-  }
-  
-  nav li:last-child {
-    border-right: none;
   }
   
   nav li a {
