@@ -10,7 +10,9 @@ fetch(requestURL)
 
   rentals.forEach(rentals => {
     let card = document.createElement('section');
-    let p0 = document.createElement('p');
+    let pt = document.createElement('p');
+    let pr = document.createElement('p');
+    let pw = document.createElement('p');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
@@ -19,21 +21,23 @@ fetch(requestURL)
     let image = document.createElement('img');
 
 
-
-    p0.innerHTML = `${rentals.rentaltype}`;
-    p1.innerHTML = `${rentals.maxpersons}`;
-    p2.innerHTML = `${rentals.reservation[0]['halfday']}`;
-    p3.innerHTML = `${rentals.reservation[1]['fullday']}`;
-    p4.innerHTML = `${rentals.walkin[0]['halfday']}`;
-    p5.innerHTML = `${rentals.walkin[1]['fullday']}`;
+    pt.innerHTML = `<strong>${rentals.rentaltype}</strong>`;
+    p1.innerHTML = `Max. Persons: ${rentals.maxpersons}`;
+    pr.innerHTML = `<em>Reservation</em>`;
+    p2.innerHTML = `Half Day (3 hrs): ${rentals.reservation[0]['halfday']}`;
+    p3.innerHTML = `Full Day: ${rentals.reservation[1]['fullday']}`;
+    pw.innerHTML = `<em>Walk-In</em>`;
+    p4.innerHTML = `Half Day (3 hrs): ${rentals.walkin[0]['halfday']}`;
+    p5.innerHTML = `Full Day: ${rentals.walkin[1]['fullday']}`;
     image.setAttribute('src', 'images/' + rentals.photo);
     image.setAttribute('alt', `${rentals.rentaltype}`);
 
-
-    card.appendChild(p0);
+    card.appendChild(pt);
     card.appendChild(p1);
+    card.appendChild(pr);
     card.appendChild(p2);
     card.appendChild(p3);
+    card.appendChild(pw);
     card.appendChild(p4);
     card.appendChild(p5);
     card.appendChild(image);

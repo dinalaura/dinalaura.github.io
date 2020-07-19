@@ -1,11 +1,19 @@
 @media only screen and (min-width: 50em) {
 
 
-    .container{
+    .container {
         margin-top: 28em;
     }
 
-    header h1{
+    header h1 {
         top: 2.5em;
-        }
+    }
+
+    main .rentals {
+
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1000px;
+    }
+ 
+
 }
