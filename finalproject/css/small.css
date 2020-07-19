@@ -1,9 +1,11 @@
 body{
-  max-width: 1280px;
+  max-width: 1173px;
   margin-left: auto;
   margin-right: auto;
 }
 
+img{
+max-width: 1173px;}
 /*---------- Navigation-------------------------------*/
 
 
