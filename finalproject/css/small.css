@@ -74,12 +74,13 @@ footer a {
     max-width: 16em;
     padding: 1em;
     text-align: center;
-  
+    box-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
 button {
     background-color: #bdcfc4;
     color: black;
-    border: 1px solid white;
+    border: 3px solid white;
+    box-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
     padding: .8em;
 }
 
