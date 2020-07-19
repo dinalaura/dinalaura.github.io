@@ -1,8 +1,11 @@
 @media only screen and (min-width: 50em) {
 
 
+    .container{
+        margin-top: 28em;
+    }
 
-
-
-    
+    header h1{
+        top: 2.5em;
+        }
 }
