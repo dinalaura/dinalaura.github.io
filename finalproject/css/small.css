@@ -52,7 +52,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1em;
-    max-width: 1500px;
+    max-width: 1200px;
 }
 
 footer p {
@@ -101,7 +101,7 @@ main{
 
 .container{
     margin-top: 8em;
-    max-width: 1500px;
+    max-width: 1200px;
 }
 
 nav picture{
