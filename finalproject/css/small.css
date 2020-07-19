@@ -110,3 +110,7 @@ nav picture{
 main h2{
   text-align: center;
 }
+
+header picture{
+  max-width: 100%;
+}
