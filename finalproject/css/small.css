@@ -106,3 +106,7 @@ nav picture{
   float:left;
   margin-left: 3em;
 }
+
+main h2{
+  text-align: center;
+}
