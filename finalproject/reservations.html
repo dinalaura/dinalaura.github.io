@@ -20,20 +20,18 @@
         <source srcset="images/cozumelm.jpg" media="(min-width:480px) and (max-width: 799px)" alt="Cozumel Isle">
         <img src="images/cozumels.jpg" alt="Cozumel Isle">
     </picture>
-        <section>
-            <h1>~Scoots</h1>
-        </section>
+    <section>
+        <h1>~Scoots</h1>
+    </section>
     </header>
     <nav>
+
+        <picture>
+            <img src="images/logo.png" alt="~Scoots logo">
+        </picture>
+
         <ul class="navigation" id="lista">
             <li class="btn"><a class="menu" href="#">&#9776; Menu</a></li>
-
-            <li>
-                <picture>
-                    <img src="images/logo.png" alt="~Scoots logo">
-                </picture>
-            </li>
-
             <li class="btn"><a href="index.html">Home</a></li>
             <li class="btn"><a href="rentals.html">Rentals</a></li>
             <li class="btn active"><a href="reservations.html">Reservations</a></li>
@@ -45,65 +43,65 @@
     <main>
         <div class="container">
 
-        <form method="get" action="confimartionpage.html">
-            <fieldset>
-                <legend>Reservation</legend>
-                <label class="top">Full Name* <input type="text" name="fullName" required pattern="[A-z\s]{5,}"
-                        placeholder="Full Name"></label>
-                <br>
-                <label class="top">eMail:
-                    <input type="email" name="email" required placeholder="user@email.org"></label>
-                <br>
-                <label class="top">Phone number:
-                    <input type="tel" name="phone" required placeholder="###-###-####">
-                </label>
-                <br>
-                <label class="top">Date <input type="date" name="date"></label>
-                <br>
-                <label class="top">Cruise Line (if applicable)
-                    <input type="text" name="cruiseLine">
-                </label>
-                <br>
-                <label class="top">Period
-                    <input type="text" name="period">
-                </label>
-                <br>
-                <label class="top">Number
-                    <input type="text" name="number">
-                </label>
-                <br>
-                <label class="top">Rental Type
-                    <input type="text" name="rentalType" list="rentalType">
-                    <datalist id="rental">
-                        <option value="Honda Metro Scooter">
-                        <option value="Honda Dio Scooter">
-                        <option value="Honda PCX150 Scooter">
-                        <option value="Honda Pioneer ATV">
-                        <option value="Jeep Wrangler - 4 door with a/c">
-                        <option value="Jeep Wrangler - 2 door">
-                    </datalist>
-                </label>
-                <br>
-                <label class="top">Home state / Country
-                    <select name="country">
-                        <option value="">Select Region &#9662;</option>
-                        <option value="Mexico">Mexico</option>
-                        <option value="USA">USA</option>
-                        <option value="Canada">Canada</option>
-                        <option value="Europe">Europe</option>
-                        <option value="Latin America">Latin America</option>
-                        <option value="Other">Other</option>
-                    </select>
-                </label>
-                <br>
-                <label class="top">Special accommodations / Comments
+            <form method="get" action="confimartionpage.html">
+                <fieldset>
+                    <legend>Reservation</legend>
+                    <label class="top">Full Name* <input type="text" name="fullName" required pattern="[A-z\s]{5,}"
+                            placeholder="Full Name"></label>
                     <br>
-                    <textarea name="textArea" placeholder="Location of a drop-off request"></textarea>
-                </label>
-            </fieldset>
+                    <label class="top">eMail:
+                        <input type="email" name="email" required placeholder="user@email.org"></label>
+                    <br>
+                    <label class="top">Phone number:
+                        <input type="tel" name="phone" required placeholder="###-###-####">
+                    </label>
+                    <br>
+                    <label class="top">Date <input type="date" name="date"></label>
+                    <br>
+                    <label class="top">Cruise Line (if applicable)
+                        <input type="text" name="cruiseLine">
+                    </label>
+                    <br>
+                    <label class="top">Period
+                        <input type="text" name="period">
+                    </label>
+                    <br>
+                    <label class="top">Number
+                        <input type="text" name="number">
+                    </label>
+                    <br>
+                    <label class="top">Rental Type
+                        <input type="text" name="rentalType" list="rentalType">
+                        <datalist id="rental">
+                            <option value="Honda Metro Scooter">
+                            <option value="Honda Dio Scooter">
+                            <option value="Honda PCX150 Scooter">
+                            <option value="Honda Pioneer ATV">
+                            <option value="Jeep Wrangler - 4 door with a/c">
+                            <option value="Jeep Wrangler - 2 door">
+                        </datalist>
+                    </label>
+                    <br>
+                    <label class="top">Home state / Country
+                        <select name="country">
+                            <option value="">Select Region &#9662;</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Europe">Europe</option>
+                            <option value="Latin America">Latin America</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </label>
+                    <br>
+                    <label class="top">Special accommodations / Comments
+                        <br>
+                        <textarea name="textArea" placeholder="Location of a drop-off request"></textarea>
+                    </label>
+                </fieldset>
 
-            <input type="submit" name="button" value="Reserve" class="submitBtn">
-        </form>
+                <input type="submit" name="button" value="Reserve" class="submitBtn">
+            </form>
         </div>
     </main>
 
