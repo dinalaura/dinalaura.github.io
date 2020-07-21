@@ -189,3 +189,7 @@ main h2 {
   text-align: center;
 }
 
+.flex{
+  display: flex;
+}
+
