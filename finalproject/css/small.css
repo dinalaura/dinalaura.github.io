@@ -7,7 +7,9 @@ body {
 h1, h2 {
   font-family: 'Cedarville Cursive', cursive;
 }
-
+h2{
+  font-size: 2em;
+}
 
 /*---------- Navigation-------------------------------*/
 
