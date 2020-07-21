@@ -4,10 +4,10 @@ body {
   margin-right: auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Cedarville Cursive', cursive;
 }
-h2{
+h2, h3{
   font-size: 2em;
 }
 
@@ -188,3 +188,4 @@ main h2 {
   padding: 1em;
   text-align: center;
 }
+
