@@ -4,11 +4,13 @@ body {
   margin-right: auto;
 }
 
-h1, h2, h3 {
+h1{
   font-family: 'Cedarville Cursive', cursive;
 }
-h2, h3{
-  font-size: 2em;
+h2, h3 {
+font-family: 'Dancing Script', cursive;
+font-size: 2em;
+
 }
 
 /*---------- Navigation-------------------------------*/
@@ -193,3 +195,7 @@ main h2 {
   display: flex;
 }
 
+iframe{
+  width:350px;
+  height:200px;
+}
