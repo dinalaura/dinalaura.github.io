@@ -125,7 +125,7 @@ main .rentals {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  background-color: #53a0ac;
+  background-color: #ddf1e5;
   padding: 2px;
   max-width: 520px;
   margin-left: auto;

@@ -56,7 +56,7 @@ nav ul {
 /*---------- Navigation-------------------------------*/
 
 .weather {
-  background-color: #53a0ac;
+  background-color: #ddf1e5;
   margin-bottom: 0px;
   color: black;
   text-align: left;
@@ -152,7 +152,6 @@ header h1 {
   top: 1em;
   z-index: 2;
   color: black;
-  /*text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);*/
   text-shadow: 4px 4px 2px white;
   font-size: 2em;
   margin-left: 2em;
