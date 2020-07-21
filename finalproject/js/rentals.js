@@ -1,4 +1,4 @@
-const requestURL = 'https://dinalaura.github.io/finalproject/data/rentals.json';
+const copyrequestURL = 'https://dinalaura.github.io/finalproject/data/rentals.json';
 
 fetch(requestURL)
 .then(function(response) {
@@ -9,41 +9,33 @@ fetch(requestURL)
   const rentals = jsonObject['rentals'];
 
   rentals.forEach(rentals => {
-    let card = document.createElement('section');
-    let pt = document.createElement('p');
-    let pr = document.createElement('p');
-    let pw = document.createElement('p');
-    let p1 = document.createElement('p');
-    let p2 = document.createElement('p');
-    let p3 = document.createElement('p');
-    let p4 = document.createElement('p');
-    let p5 = document.createElement('p');
-    let image = document.createElement('img');
+    let card = document.createElement('tr');
+    let td1 = document.createElement('td');
+    let td2 = document.createElement('td');
+    let td3 = document.createElement('td');
+    let td4 = document.createElement('td');
+    let td5 = document.createElement('td');
+    let td6 = document.createElement('td');
 
 
-    pt.innerHTML = `<strong>${rentals.rentaltype}</strong>`;
-    p1.innerHTML = `Max. Persons: ${rentals.maxpersons}`;
-    pr.innerHTML = `<em>Reservation</em>`;
-    p2.innerHTML = `Half Day (3 hrs): ${rentals.reservation[0]['halfday']}`;
-    p3.innerHTML = `Full Day: ${rentals.reservation[1]['fullday']}`;
-    pw.innerHTML = `<em>Walk-In</em>`;
-    p4.innerHTML = `Half Day (3 hrs): ${rentals.walkin[0]['halfday']}`;
-    p5.innerHTML = `Full Day: ${rentals.walkin[1]['fullday']}`;
-    image.setAttribute('src', 'images/' + rentals.photo);
-    image.setAttribute('alt', `${rentals.rentaltype}`);
-
-    card.appendChild(pt);
-    card.appendChild(p1);
-    card.appendChild(pr);
-    card.appendChild(p2);
-    card.appendChild(p3);
-    card.appendChild(pw);
-    card.appendChild(p4);
-    card.appendChild(p5);
-    card.appendChild(image);
+    td1.innerHTML = `${rentals.rentaltype}`;
+    td2.innerHTML = `${rentals.maxpersons}`;
+    td3.innerHTML = `$${rentals.reservation[0]['halfday']}`;
+    td4.innerHTML = `$${rentals.reservation[1]['fullday']}`;
+    td5.innerHTML = `$${rentals.walkin[0]['halfday']}`;
+    td6.innerHTML = `$${rentals.walkin[1]['fullday']}`;
+  
+    card.appendChild(td1);
+    card.appendChild(td2);
+    card.appendChild(td3);
+    card.appendChild(td4);
+    card.appendChild(td5);
+    card.appendChild(td6);
 
 
-    document.querySelector('div.rentals').appendChild(card);
+    document.getElementById('tr1').appendChild(card);
+
+
     
   });
 });
