@@ -40,7 +40,7 @@ fetch(requestURL)
     let image = document.createElement('img');
 
 image.setAttribute('src', 'images/' + `${rentals.photo}`);
-image.setAttribute('alt', `${rentals.photo}`);
+image.setAttribute('alt', `${rentals.rentaltype}`);
 heading.innerHTML = `${rentals.rentaltype}`;
 
 div2.appendChild(heading);
