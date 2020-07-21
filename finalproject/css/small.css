@@ -1,92 +1,149 @@
-body{
+body {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+}
+
+h1 {
+  font-family: 'Cedarville Cursive', cursive;
 }
 
 /*---------- Navigation-------------------------------*/
 
 
 nav {
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    background-color: white;
-    z-index: 3;
-    margin: 0 auto;
-  }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navigation {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .navigation li:first-child {
-    display: block;
-    float:right;
-  }
-  
-  .navigation li {
-    display: none;
-  }
-  
-  .navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: center;
-    text-decoration: none;
-    color: #000000;
-    font-weight: 700;
-  }
-  
-  .responsive li {
-    display: block;
-  }
-  /*---------- Navigation-------------------------------*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 3;
+  margin: 0 auto;
+}
 
-  
+nav ul {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 
+.navigation {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+  float: right;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+}
+
+.responsive li {
+  display: block;
+}
+
+/*---------- Navigation-------------------------------*/
+
+.weather {
+  background-color: #53a0ac;
+  margin-bottom: 0px;
+  color: black;
+  text-align: left;
+  padding: 1em;
+  font-family: sans-serif;
+  border: 2px solid white;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 4px 4px 2px #f5b697;
+  margin: 20px auto;
+}
+
+.weather h3 {
+  padding-bottom: 2px;
+  margin: 5px 5px 10px 5px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+}
+
+.bold {
+  font-weight: bold;
+}
 
 footer {
-    background-color: #53a0ac;
-    margin-bottom: 0px;
-    color: black;
-    text-align: center;
-    padding: 1em;
+  background-color: #53a0ac;
+  margin-bottom: 0px;
+  color: black;
+  text-align: center;
+  padding: 1em;
+  font-family: sans-serif;
 }
 
 footer p {
-    margin-bottom: 0px;
-}
-footer a {
-    color: black;
-    text-decoration: none;
+  margin-bottom: 0px;
 }
 
-.box { 
-    background-color: #bdcfc4;
-    color: black;
-    max-width: 16em;
-    padding: 1em;
-    text-align: center;
-    box-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+footer a {
+  color: black;
+  text-decoration: none;
 }
+
+.text {
+  background-color: #ddf1e5;
+  color: black;
+  max-width: 60em;
+  padding: 1em;
+  margin: 1em auto 1em auto;
+  line-height: 2em;
+  font-family: sans-serif;
+
+}
+
+.text h2,
+.text h3 {
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+}
+
+.text img {
+  float: center;
+}
+
+.box {
+  background-color: #ddf1e5;
+  color: black;
+  max-width: 16em;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 4px 4px 2px #f5b697;
+  margin: 1em auto 1em auto;
+  font-family: 'Dancing Script', cursive;
+}
+
 button {
-    background-color: #bdcfc4;
-    color: black;
-    border: 3px solid rgb(114, 110, 110);
-    box-shadow: 4px 4px 2px rgb(92, 91, 91);
-    padding: .8em;
+  background-color: #ddf1e5;
+  color: black;
+  border: 2px solid rgb(114, 110, 110);
+  box-shadow: 4px 4px 2px rgb(92, 91, 91);
+  padding: .8em;
+  font-family: sans-serif;
+  font-size: .9em;
 }
 
 header img {
-    position:absolute;
-    z-index: 1;
+  position: absolute;
+  z-index: 1;
 }
 
 
@@ -101,21 +158,21 @@ header h1 {
   margin-left: 2em;
 }
 
-main{
-    z-index: 4;
+main {
+  z-index: 4;
 
 }
 
-.container{
-    margin-top: 8em;
+.container {
+  margin-top: 8em;
 }
 
-nav picture{
-  float:left;
+nav picture {
+  float: left;
   margin-left: 3em;
 }
 
-main h2{
+main h2 {
   text-align: center;
 }
 
@@ -123,11 +180,12 @@ main h2{
   border: solid 1px #eeccbb;
   margin-bottom: 1em;
 }
-.rentals{
-    max-width: 300px;
-    margin: 20px auto 20px auto;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.15;
-    padding: 1em;
-    text-align: center;
-  }
+
+.rentals {
+  max-width: 300px;
+  margin: 20px auto 20px auto;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.15;
+  padding: 1em;
+  text-align: center;
+}

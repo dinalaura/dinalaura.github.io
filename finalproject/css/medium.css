@@ -109,5 +109,50 @@ main .rentals {
   grid-row: 2;
 }
 /*------------------------*/
+.text img{
+  float:right; 
+  margin:1em 2em 1em 1em;
+}
+
+.yellow img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*-------Weather Info --------------*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #53a0ac;
+  padding: 2px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.grid-header {
+  border: 2px solid white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.grid-image {
+  padding: 20px 20px 5px 20px;
+  text-align: center;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.grid-f {
+  border: 2px solid white;
+  border-top: none;
+  padding: 5px 20px 20px 20px;
+  text-align: center;
+}
+/*------End Weather Info ------------------*/
 
 }
