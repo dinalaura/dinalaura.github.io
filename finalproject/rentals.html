@@ -7,8 +7,9 @@
     <meta name="description"
         content="Final Project for Dina Moreno G in WDD 230: Web Frontend Development at Brigham Young University - Idaho.">
     <title>~Scoots - Rentals</title>
-    <link  href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&family=Lobster&display=swap"
-    rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&family=Lobster&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/small.css">
@@ -23,7 +24,7 @@
             <source srcset="images/cozumelm.jpg" media="(min-width:480px) and (max-width: 799px)">
             <img src="images/cozumels.jpg" alt="Cozumel Isle">
         </picture>
-            <h1>~Scoots</h1>
+        <h1>~Scoots</h1>
     </header>
     <nav>
 
@@ -45,6 +46,26 @@
         <div class="container">
             <h2>Max Persons and Price Chart (includes Tax)</h2>
             <div class="rentals"></div>
+
+            <table>
+                <tbody>
+                <tr>
+                <td colspan="6"><strong>Max Persons and Price Chart (includes Tax)</strong></td>
+                </tr>
+                <tr>
+                <td colspan="2"></td>
+                <td colspan="2"><strong>Reservation</strong></td>
+                <td colspan="2"><strong>Walk-In</strong></td>
+                </tr>
+                <tr>
+                <td id="rt1"><strong>Rental Type</strong></td>
+                <td id="rt2"><strong>Max. Persons</strong></td>
+                <td id="rt3"><strong>Half Day<br>(3 hrs)</strong></td>
+                <td id="rt4"><strong>Full Day</strong></td>
+                <td id="rt5"><strong>Half Day<br>(3 hrs)</strong></td>
+                <td id="rt6"><strong>Full Day</strong></td>
+                </tbody>
+                </table>
         </div>
     </main>
 
@@ -73,10 +94,11 @@
         <p>Last Modified Date: <span id="date"></span></p>
     </footer>
     <script src="js/rentals.js"></script>
+    <script src="js/rentals copy.js"></script>
+
     <script src="js/active.js"></script>
     <script src="js/responsive.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webfontload.js"></script>
+   
 </body>
 
 </html>
