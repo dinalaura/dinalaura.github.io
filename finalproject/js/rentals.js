@@ -1,4 +1,4 @@
-const copyrequestURL = 'https://dinalaura.github.io/finalproject/data/rentals.json';
+const requestURL = 'https://dinalaura.github.io/finalproject/data/rentals.json';
 
 fetch(requestURL)
 .then(function(response) {
