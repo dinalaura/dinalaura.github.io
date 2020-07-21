@@ -11,7 +11,7 @@
           { "halfday": 25 },
           { "fullday": 35 }
         ],
-        "photo": "metroscooter.jpg"
+        "photo": "redscooter.jpg"
       },
       {
         "rentaltype": "Honda Dio Scooter",
@@ -24,7 +24,7 @@
           { "halfday": 35 },
           { "fullday": 45 }
         ],
-        "photo": "dioscooter.jpg"
+        "photo": "greenscooter.jpg"
       },
       {
         "rentaltype": "Honda PCX150 Scooter",
@@ -37,7 +37,7 @@
           { "halfday": 45 },
           { "fullday": 55 }
         ],
-        "photo": "pcxscooter.jpg"
+        "photo": "bluescooter.jpg"
       },
       {
         "rentaltype": "Honda Pioneer ATV",
@@ -50,7 +50,7 @@
           { "halfday": 60 },
           { "fullday": 80 }
         ],
-        "photo": "pioneeratv.jpg"
+        "photo": "jeep.jpg"
       },
       {
         "rentaltype": "Jeep Wrangler - 4 door with a/c",
@@ -63,7 +63,7 @@
           { "halfday": 85 },
           { "fullday": 125 }
         ],
-        "photo": "wranglerfour.jpg"
+        "photo": "redjeep.jpg"
       },
       {
         "rentaltype": "Jeep Wrangler - 2 door",
@@ -76,7 +76,7 @@
           { "halfday": 70 },
           { "fullday": 90 }
         ],
-        "photo": "wranglertwo.jpg"
+        "photo": "grayjeep.jpg"
       }
     ]
   }
