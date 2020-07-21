@@ -32,10 +32,26 @@ fetch(requestURL)
     card.appendChild(td5);
     card.appendChild(td6);
 
-
     document.getElementById('tr1').appendChild(card);
+
+
+    let heading = document.createElement('h2');
+    let div2 = document.createElement('div');
+    let image = document.createElement('img');
+
+image.setAttribute('src', 'images/' + `${rentals.photo}`);
+image.setAttribute('alt', `${rentals.photo}`);
+heading.innerHTML = `${rentals.rentaltype}`;
+
+div2.appendChild(heading);
+div2.appendChild(image);
+
+    document.getElementById('rentalsimages').appendChild(div2);
+
 
 
     
   });
 });
+
+
