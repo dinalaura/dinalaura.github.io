@@ -201,7 +201,7 @@ iframe{
 }
 
 /* Tours ul*/
-div ul {
+#toursul ul {
   background-color: #ddf1e5;
   max-width: 18em;
   padding: 2em;
@@ -211,7 +211,7 @@ div ul {
   box-shadow: 4px 4px 2px #f5b697;
   margin: 1em auto 1em auto;
 }
-div h3 {
+#toursul h3 {
   text-align: center;
 } 
 /* end of tours ul*/
