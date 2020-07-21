@@ -35,7 +35,7 @@ fetch(requestURL)
     document.getElementById('tr1').appendChild(card);
 
 
-    let heading = document.createElement('h2');
+    let heading = document.createElement('h3');
     let div2 = document.createElement('div');
     let image = document.createElement('img');
 
