@@ -154,5 +154,25 @@ main .rentals {
   text-align: center;
 }
 /*------End Weather Info ------------------*/
+#article {
+  display: block;
+  background-color: #ddf1e5;
+  color: black;
+  padding: 1em;
+  margin: 1em auto 1em auto;
+  max-width: 992px;
+  line-height: 2em;
+}
+
+#article img {
+  float: right;
+  padding: .25rem;
+  margin: .5rem .25rem .5rem 1.25rem;
+}
+#article h2{
+  font-family: 'Dancing Script', cursive;
+font-size: 2em;
+}
+
 
 }
