@@ -286,8 +286,8 @@ th {
 }
 /* Rentals End of Table*/
 
-/* thanks page */
-.thankspage h2, .thankspage h3 {
+/* thanks page and information */
+.thankspage h2, .thankspage h3, .information h2, .information h3 {
 text-align: center;
 }
-/*end of thanks page*/
+/*end of thanks page and information*/
