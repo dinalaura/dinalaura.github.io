@@ -76,10 +76,6 @@ form{
   max-width: 300px;
   }
 
-  #rentalsimages # {
-    margin-top:2.3em;
-  }
-
 /*-----------end of rental-------------*/
 .text img{
   float:right; 
@@ -91,7 +87,9 @@ form{
   margin-right: auto;
   margin-left: auto;
 }
-
+#rentalsimages div:nth-child(6) > img{
+  margin-top:2.3em;
+}
 /*-------Weather Info --------------*/
 
 .grid-container {
