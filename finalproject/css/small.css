@@ -4,12 +4,14 @@ body {
   margin-right: auto;
 }
 
-h1{
+h1 {
   font-family: 'Cedarville Cursive', cursive;
 }
-h2, h3 {
-font-family: 'Dancing Script', cursive;
-font-size: 2em;
+
+h2,
+h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
 
 }
 
@@ -191,13 +193,13 @@ main h2 {
   text-align: center;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-iframe{
-  width:350px;
-  height:200px;
+iframe {
+  width: 350px;
+  height: 200px;
 }
 
 /* Tours ul*/
@@ -211,7 +213,36 @@ iframe{
   box-shadow: 4px 4px 2px #f5b697;
   margin: 1em auto 1em auto;
 }
+
 #toursul h3 {
   text-align: center;
-} 
+}
+
 /* end of tours ul*/
+/*-------Weather Info --------------*/
+
+.weathersmall {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddf1e5;
+  padding: 1em;
+  max-width: 280px;
+  margin: auto;
+  text-align: center;
+}
+
+.grid-container {
+  display: none;
+}
+
+#day1, #day2, #day3, #day4, #day5 {
+  border-top: 1px solid white;
+  padding-top: 5px;
+}
+
+
+#temp1, #temp2, #temp3, #temp4, #temp5 {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+/*------End Weather Info ------------------*/

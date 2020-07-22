@@ -231,4 +231,8 @@ th {
 }
 /* End of Table*/
 
+#iflargehide {
+  display: none;
+}
+
 }
