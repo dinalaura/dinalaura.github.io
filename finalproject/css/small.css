@@ -12,7 +12,6 @@ h2,
 h3 {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
-
 }
 
 /*---------- Navigation-------------------------------*/
@@ -116,13 +115,6 @@ footer a {
   font-family: sans-serif;
 
 }
-
-.text h2,
-.text h3 {
-  font-size: 2em;
-  font-family: 'Dancing Script', cursive;
-}
-
 
 .box {
   background-color: #ddf1e5;
@@ -293,3 +285,9 @@ th {
   border-color: lightgray;
 }
 /* Rentals End of Table*/
+
+/* thanks page */
+.thankspage h2, .thankspage h3 {
+text-align: center;
+}
+/*end of thanks page*/
