@@ -18,6 +18,9 @@
     .text img{
         margin:1em 2em 1em 1em;
     }
+    #rentalsimages {
+        grid-template-columns: auto auto auto;
 
+      }
 
 }
