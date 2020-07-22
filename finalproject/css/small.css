@@ -303,5 +303,8 @@ text-align: center;
   border-radius: 10px;
   margin: 1em;
 }
+.information fieldset {
+border: 1px solid white;
+}
 /*end of thanks page and information*/
 
