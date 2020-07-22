@@ -72,6 +72,14 @@ form{
   background-color:#eeccbb;
   padding: 2em;
 }
+#rentalsimages h3{
+  max-width: 300px;
+  }
+
+  #rentalsimages # {
+    margin-top:2.3em;
+  }
+
 /*-----------end of rental-------------*/
 .text img{
   float:right; 
