@@ -175,4 +175,10 @@ thead tr:nth-child(odd) th {
   display: none;
 }
 
+/*flex*/
+.flex li{
+  margin-left: 8em;
+}
+/* end of flex*/
+
 }

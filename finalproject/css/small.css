@@ -106,7 +106,8 @@ footer a {
   text-decoration: none;
 }
 
-.mainarticle, #tourarticle {
+.mainarticle,
+#tourarticle {
   background-color: #ddf1e5;
   color: black;
   max-width: 60em;
@@ -116,7 +117,7 @@ footer a {
   font-family: sans-serif;
 }
 
-.mainarticle h3{
+.mainarticle h3 {
   text-align: left;
 }
 
@@ -173,34 +174,42 @@ nav picture {
 
 /*-------------------------*/
 
-.rentals, #contactlist {
+.rentals,
+#contactlist {
   line-height: 1.15;
   padding: 1em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 500px!important;
+  max-width: 500px !important;
 }
 
 /*---------------------------*/
 /*----------Flex-----------------*/
 
 .flex {
-  display: flex!important;
+  display: flex !important;
   flex-direction: column;
 }
 
-.flex fieldset{
-  margin-bottom:1em; 
+.flexcontainer {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.flex fieldset {
+  margin-bottom: 1em;
   line-height: 3em;
-  box-shadow:4px 4px 2px #f5b697;
+  box-shadow: 4px 4px 2px #f5b697;
   background-color: #ddf1e5;
 }
 
-.flex li{
-    display: flex;
-    flex-direction: column;
-    margin-left: 20em;
+.flex li {
+  display: flex;
+  flex-direction: column;
+  line-height: 2em;
+  padding:1em;
 }
+
 /*-----------End of flex----------------*/
 
 
@@ -243,22 +252,32 @@ iframe {
   display: none;
 }
 
-#day1, #day2, #day3, #day4, #day5 {
+#day1,
+#day2,
+#day3,
+#day4,
+#day5 {
   border-top: 1px solid white;
   padding-top: 5px;
 }
 
 
-#temp1, #temp2, #temp3, #temp4, #temp5 {
+#temp1,
+#temp2,
+#temp3,
+#temp4,
+#temp5 {
   border-bottom: 1px solid white;
   padding-bottom: 5px;
 }
+
 /*------End Weather Info ------------------*/
 
 /*Rentals*/
 #rentalsimages {
-background-color:#eeccbb;
-text-align: center;}
+  background-color: #eeccbb;
+  text-align: center;
+}
 
 
 /*end of rentals*/
@@ -301,33 +320,38 @@ th {
   border-width: thin;
   border-color: lightgray;
 }
+
 /* Rentals End of Table*/
 
 /* thanks page and information */
 
 
-.information form, #contact {
-  margin-bottom:1em; 
+.information form,
+#contact {
+  margin-bottom: 1em;
   line-height: 3em;
-  box-shadow:4px 4px 2px #f5b697;
+  box-shadow: 4px 4px 2px #f5b697;
   background-color: #ddf1e5;
 }
-.submitBtn{
+
+.submitBtn {
   background-color: #ddf1e5;
   width: 100px;
   border-radius: 10px;
   margin: 1em;
 }
-.information fieldset, #contact fieldset{
-border: 1px solid white;
+
+.information fieldset,
+#contact fieldset {
+  border: 1px solid white;
 }
 
 /*end of thanks page and information*/
 
 /*maps*/
 .maps p {
-text-align: center;
-line-height: 2em;
+  text-align: center;
+  line-height: 2em;
 }
-/*end of maps*/
 
+/*end of maps*/

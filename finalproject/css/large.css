@@ -15,14 +15,21 @@
         max-width: 1000px;
     }
 
-    .mainarticle img{
-        margin:1em 2em 1em 1em;
+    .mainarticle img {
+        margin: 1em 2em 1em 1em;
     }
+
     #rentalsimages {
         grid-template-columns: auto auto auto;
 
-      }
-      #rentalsimages div:nth-child(4) > img, #rentalsimages div:nth-child(6) > img{
-        margin-top:2.3em;
-      }
+    }
+
+    #rentalsimages div:nth-child(4)>img,
+    #rentalsimages div:nth-child(6)>img {
+        margin-top: 2.3em;
+    }
+
+    .flex li {
+        margin-left: 20em;
+    }
 }
