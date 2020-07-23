@@ -32,4 +32,7 @@
     .flex li {
         margin-left: 20em;
     }
+    #flexh{
+        top:1.9em!important;
+    }
 }

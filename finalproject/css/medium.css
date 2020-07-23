@@ -179,6 +179,10 @@ thead tr:nth-child(odd) th {
 .flex li{
   margin-left: 8em;
 }
+
+#flexh{
+  top:.6em!important;
+}
 /* end of flex*/
 
 }

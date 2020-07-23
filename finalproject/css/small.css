@@ -209,7 +209,9 @@ nav picture {
   line-height: 2em;
   padding:1em;
 }
-
+#flexh{
+  top:.9em!important;
+}
 /*-----------End of flex----------------*/
 
 
