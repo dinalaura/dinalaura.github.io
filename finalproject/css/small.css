@@ -199,8 +199,7 @@ nav picture {
 .flex fieldset {
   margin-bottom: 1em;
   line-height: 3em;
-  box-shadow: 4px 4px 2px #f5b697;
-  background-color: #ddf1e5;
+ border: 1px solid white;
 }
 
 .flex li {
@@ -218,7 +217,10 @@ nav picture {
 #resmargin{
   margin-top: -4em!important;
 }
-
+#reserform {
+  box-shadow: 4px 4px 2px #f5b697;
+  background-color: #ddf1e5;
+}
 
 /*-----------End of flex----------------*/
 
