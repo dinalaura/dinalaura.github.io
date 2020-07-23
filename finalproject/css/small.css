@@ -189,6 +189,9 @@ nav picture {
 iframe {
   width: 350px;
   height: 200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Tours ul*/
@@ -299,5 +302,13 @@ th {
 .information fieldset, #contact fieldset{
 border: 1px solid white;
 }
+
 /*end of thanks page and information*/
+
+/*maps*/
+.maps p {
+text-align: center;
+line-height: 2em;
+}
+/*end of maps*/
 
