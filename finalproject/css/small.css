@@ -23,7 +23,7 @@ nav {
   top: 0;
   width: 100%;
   background-color: white;
-  z-index: 3;
+  z-index: 3!important;
   margin: 0 auto;
 }
 
@@ -189,11 +189,13 @@ nav picture {
 .flex {
   display: flex !important;
   flex-direction: column;
+  z-index: 1;
 }
 
 .flexcontainer {
   display: flex !important;
   flex-direction: column;
+  z-index: 1;
 }
 
 .flex fieldset {
@@ -201,6 +203,7 @@ nav picture {
   line-height: 3em;
   box-shadow: 4px 4px 2px #f5b697;
   background-color: #ddf1e5;
+  z-index: 1;
 }
 
 .flex li {
@@ -208,6 +211,7 @@ nav picture {
   flex-direction: column;
   line-height: 2em;
   padding:1em;
+  z-index: 1;
 }
 
 /*-----------End of flex----------------*/
