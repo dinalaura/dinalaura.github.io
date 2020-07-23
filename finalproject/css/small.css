@@ -106,7 +106,7 @@ footer a {
   text-decoration: none;
 }
 
-.mainarticle {
+.mainarticle, #tourarticle {
   background-color: #ddf1e5;
   color: black;
   max-width: 60em;

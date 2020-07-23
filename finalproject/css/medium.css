@@ -76,7 +76,7 @@ form{
   }
 
 /*-----------end of rental-------------*/
-.text img{
+.mainarticle img{
   float:right; 
   margin:1em 2em 1em 1em;
 }
@@ -124,7 +124,7 @@ form{
   text-align: center;
 }
 /*------End Weather Info ------------------*/
-#article {
+#tourarticle {
   display: block;
   background-color: #ddf1e5;
   color: black;
@@ -134,12 +134,12 @@ form{
   line-height: 2em;
 }
 
-#article img {
+#tourarticle img {
   float: right;
   padding: .25rem;
   margin: .5rem .25rem .5rem 1.25rem;
 }
-#article h2{
+#tourarticle h2{
   font-family: 'Dancing Script', cursive;
 font-size: 2em;
 text-align: left;
