@@ -80,8 +80,8 @@ nav ul {
 .weather h3 {
   padding-bottom: 2px;
   margin: 5px 5px 10px 5px;
-  font-family: 'Dancing Script', cursive;
   font-size: 2em;
+  text-align: left;
 }
 
 .bold {
@@ -106,7 +106,7 @@ footer a {
   text-decoration: none;
 }
 
-.text {
+.mainarticle {
   background-color: #ddf1e5;
   color: black;
   max-width: 60em;
@@ -114,7 +114,10 @@ footer a {
   margin: 1em auto 1em auto;
   line-height: 2em;
   font-family: sans-serif;
+}
 
+.mainarticle h3{
+  text-align: left;
 }
 
 .box {
