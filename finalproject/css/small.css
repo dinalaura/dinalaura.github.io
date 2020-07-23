@@ -173,7 +173,7 @@ nav picture {
 
 /*-------------------------*/
 
-.rentals {
+.rentals, #contactlist {
   line-height: 1.15;
   padding: 1em;
   margin-left: auto;
