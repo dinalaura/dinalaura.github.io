@@ -182,9 +182,28 @@ nav picture {
 }
 
 /*---------------------------*/
+/*----------Flex-----------------*/
+
 .flex {
-  display: flex;
+  display: flex!important;
+  flex-direction: column;
 }
+
+.flex fieldset{
+  margin-bottom:1em; 
+  line-height: 3em;
+  box-shadow:4px 4px 2px #f5b697;
+  background-color: #ddf1e5;
+}
+
+.flex li{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20em;
+}
+/*-----------End of flex----------------*/
+
+
 
 iframe {
   width: 350px;

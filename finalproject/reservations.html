@@ -7,8 +7,9 @@
     <meta name="description"
         content="Final Project for Dina Moreno G in WDD 230: Web Frontend Development at Brigham Young University - Idaho.">
     <title>~Scoots - Reservations</title>
-    <link  href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&family=Lobster&display=swap"
-    rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&family=Lobster&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/small.css">
@@ -43,8 +44,8 @@
 
     <main>
         <div class="container" class="flex">
-            <h2>Reservations</h2>
-            <form method="get" action="information.html">
+            <h2  class="flex">Reservations</h2>
+            <form  class="flex" method="get" action="information.html">
                 <fieldset>
                     <legend>Reservation</legend>
                     <label class="top">Full Name* <input type="text" name="fullName" required pattern="[A-z\s]{5,}"
@@ -104,19 +105,19 @@
                 <input type="submit" name="button" value="Reserve" class="submitBtn">
             </form>
 
-            <h3>Rental Agreement Information</h3>
-<ul>   
-    <li>A $50 security deposit is required to confirm reservations.</li>
-    <li>A valid drivers license is required in hand at time of rental.</li>
-    <li>No one under 12 years of age are allowed to ride on the scooters.</li>
-    <li>Fuel charge not included.</li>
-    <li>Unlimited mileage.</li>
-    <li>Liability insurance is free of charge.</li>
-    <li>Reservations rate requires 24 hour prior notification.</li>
-    <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
-    <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
-    <li>Rentals may be returned to either location.</li>
-</ul>
+            <h3  class="flex">Rental Agreement Information</h3>
+            <ul class="flex">
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at time of rental.</li>
+                <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is free of charge.</li>
+                <li>Reservations rate requires 24 hour prior notification.</li>
+                <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                <li>Rentals may be returned to either location.</li>
+            </ul>
         </div>
     </main>
 
@@ -139,7 +140,8 @@
             </a>
         </div>
         <!--end of social-->
-        &copy; ~Scoots | Attributions: <a target="_blank" href="https://openweathermap.org/city/3530103">OpenWeather</a> - 
+        &copy; ~Scoots | Attributions: <a target="_blank" href="https://openweathermap.org/city/3530103">OpenWeather</a>
+        -
         <a target="_blank" href="https://www.visitmexico.com/en/destino/cozumel/">Visit Mexico</a> |
         <br>
         <p>Last Modified Date: <span id="date"></span></p>
