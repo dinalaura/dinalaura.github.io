@@ -12,6 +12,7 @@ h2,
 h3 {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
+  text-align: center;
 }
 
 /*---------- Navigation-------------------------------*/
@@ -167,9 +168,6 @@ nav picture {
   margin-left: 3em;
 }
 
-main h2 {
-  text-align: center;
-}
 /*-------------------------*/
 
 .rentals {
@@ -180,9 +178,6 @@ main h2 {
   max-width: 500px!important;
 }
 
-.rentals h3{
-  text-align: center;
-}
 /*---------------------------*/
 .flex {
   display: flex;
@@ -205,9 +200,6 @@ iframe {
   margin: 1em auto 1em auto;
 }
 
-#toursul h3 {
-  text-align: center;
-}
 
 /* end of tours ul*/
 /*-------Weather Info --------------*/
@@ -287,9 +279,7 @@ th {
 /* Rentals End of Table*/
 
 /* thanks page and information */
-.thankspage h2, .thankspage h3, .information h2, .information h3 {
-text-align: center;
-}
+
 
 .information form, #contact {
   margin-bottom:1em; 
