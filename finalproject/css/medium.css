@@ -184,5 +184,7 @@ thead tr:nth-child(odd) th {
   top:.6em!important;
 }
 /* end of flex*/
-
+#resmargin{
+  margin-top: -6em!important;
+}
 }
